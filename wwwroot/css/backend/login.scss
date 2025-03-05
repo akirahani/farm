@@ -1,0 +1,65 @@
+@media all and (min-width: 0) {
+    .all-login {
+        margin: 50px auto;
+        width: 100%;
+        .form-login {
+            background-color: #ddf;
+            h1 {
+                text-align: center;
+                font-size: 30px;
+                font-weight: 400;
+                color: #326878;
+                font-family: 'Montserrat';
+                font-size: 20px;
+            }
+            form {
+                padding: 15px;
+                input {
+                    border: none;
+                    outline: none;
+                    display: block;
+                    margin: 30px auto 0 auto;
+                    border-radius: 0.5rem;
+                    font-weight: bold;
+                }
+                [type="text"],
+                [type="password"] {
+                    padding-left: 7px;
+                    height: 35px;
+                    color: #9aaac3;
+                    font-family: 'Montserrat';
+                    font-size: 14px;
+                    width: calc(100% - 15px);
+                }
+                [type="submit"] {
+                    font-family: 'Montserrat';
+                    font-size: 14px;
+                    height: 35px;
+                    width: calc(40% - 15px);
+                    color: white;
+                    cursor: pointer;
+                    background-color: #7ed9e5;
+                }
+            }
+        }
+    }
+}
+
+@media all and (min-width: 521px) {
+    .all-login {
+        width: 480px;
+        margin: auto;
+        .img-pet {}
+        .form-login {}
+    }
+}
+
+@media all and (min-width: 1201px) {
+    .all-login {
+        margin: 100px auto;
+        .form-login {
+            width: 480px;
+            margin: auto;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+@media all and (min-width: 0) {
+    .container {
+        main {
+            display: block;
+            .all-admin-manage {
+                display: flex;
+                .nav-menu {
+                    width: 25%;
+                    ul {
+                        padding: 0;
+                        list-style: none;
+                    }
+                }
+                .content-admin {
+                    width: 75%;
+                }
+            }
+        }
+    }
+    .table-user {
+        width: 100%;
+        margin: 15px 0;
+        tr {
+            th,
+            td {
+                padding: 15px 0;
+                width: 25%;
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media all and (min-width: 521px) {}
+
+@media all and (min-width: 1201px) {}

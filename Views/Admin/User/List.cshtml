@@ -1,0 +1,48 @@
+@{
+    ViewData["Title"] = "User Manage";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+@model List<User>
+@* @section UserList { *@
+   <table class="table-user">
+     <tr>
+        <th>
+            Họ tên
+        </th>
+        <th>
+            Tên tài khoản
+        </th>
+        <th>
+            Quyền hạn
+        </th>
+        <th>
+           Tác vụ
+        </th>
+    </tr>
+
+    @foreach(var user in Model)
+    {
+        <tr>
+            <td>
+                @user.name
+            </td>
+            <td>
+                @user.username
+            </td>
+            <td>
+                @if(@user.role ==1 ){
+                    <p>Quản trị viên</p>
+                }else{
+                    <p>Nhân viên</p>
+                }
+                
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@user.id">Edit</a> |
+                <a asp-action="Delete" asp-route-id="@user.id">Delete</a>
+            </td>
+        </tr>
+    }
+</table> 
+@* } *@
+

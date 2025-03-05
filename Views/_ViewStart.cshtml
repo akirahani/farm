@@ -1,0 +1,12 @@
+﻿@{
+    var routeUrl = Url.Action();
+    string[] routeUrlFinal = routeUrl.TrimStart('/').Split('/');
+    if (routeUrlFinal.Contains("admin"))
+    {
+       Layout = "_LayoutAdmin";
+    }
+    else {
+        Layout = "_Layout";
+    }
+}
+

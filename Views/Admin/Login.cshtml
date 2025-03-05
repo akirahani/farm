@@ -1,0 +1,17 @@
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+@model LoginViewModel
+
+<section class="all-login">
+    <div class="form-login">
+        <form asp-action="Login" asp-controller="Auth" method="POST">
+            <h1>Đăng nhập</h1>
+            <input class="form-control" asp-for = "username" name="username" placeholder="Login" runat="server" />
+            <input class="form-control" asp-for="passd" name="passd" placeholder="Password" runat="server"type="password"/>
+            <input type="submit" name="login" value="Đăng nhập">
+        </form>
+    </div>
+</section>
+
