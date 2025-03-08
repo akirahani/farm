@@ -23,7 +23,7 @@ public class AuthController : Controller
 
     }
 
-    [Route("/admin/login", Name="login")]
+    [Route("/login", Name="login")]
     [HttpGet]
     public IActionResult Login()
     {
@@ -31,7 +31,7 @@ public class AuthController : Controller
         return View("~/Views/Admin/Login.cshtml",viewModel);
     }
 
-    [Route("/admin/login", Name="login")]
+    [Route("/login", Name="login")]
     [HttpPost]
     public IActionResult Login(LoginViewModel viewModel)
     {
@@ -40,6 +40,8 @@ public class AuthController : Controller
         String sql = "SELECT username, passd, role FROM users WHERE role = 1";
         SqlCommand cmd = new(sql, conn);
         List<string> usernameDB = new List<string>();
+        // var viewNameSession = new LoginViewModel();
+
         conn.Open();
         using(SqlDataReader reader = cmd.ExecuteReader(CommandBehavior.CloseConnection)){
             int i = 0;
@@ -55,9 +57,8 @@ public class AuthController : Controller
                         if(viewModel.passd.ToString() == reader2["passd"].ToString()){
                             HttpContext.Session.SetString(SessionKeyName, reader2["name"].ToString());
                             var sessionName = HttpContext.Session.GetString(SessionKeyName);
-                            TempData["Result"] = sessionName;
-
-                            return View("~/Views/Admin/Index.cshtml",TempData);
+                            ViewBag.nameSession = sessionName;
+                            return View("~/Views/Admin/Index.cshtml");
                         }else{
                             return View("~/Views/Admin/Login.cshtml"); 
                         }

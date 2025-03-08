@@ -6,9 +6,6 @@ namespace mvcbasic.Data
 
     public class MvcBasicDbContext : DbContext
     {
-      
-       
-
         public MvcBasicDbContext(DbContextOptions<MvcBasicDbContext> options) : base(options)
         {
         }

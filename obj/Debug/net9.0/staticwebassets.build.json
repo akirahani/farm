@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bti4RTC5bHaqsTg+Jssintmsx/sEi8EkOEIR5V+Fijs=",
+  "Hash": "0C4qFj+Eglwv4EMmB9YCPAvhGJVXHI/u5XrnkABZQvw=",
   "Source": "Farm",
   "BasePath": "_content/Farm",
   "Mode": "Default",
@@ -1151,12 +1151,12 @@
       "OriginalItemSpec": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\obj\\Debug\\net9.0\\compressed\\okmm00vr3i-bpy6zu9xwc.gz",
+      "Identity": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\obj\\Debug\\net9.0\\compressed\\okmm00vr3i-h07eke0r8t.gz",
       "SourceId": "Farm",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Farm",
-      "RelativePath": "css/backend/style.css#[.{fingerprint=bpy6zu9xwc}]?.map.gz",
+      "RelativePath": "css/backend/style.css#[.{fingerprint=h07eke0r8t}]?.map.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1165,8 +1165,8 @@
       "RelatedAsset": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\css\\backend\\style.css.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "f1p1bpxt2m",
-      "Integrity": "/YsyKkwe8Xnkdi7OF2p1/qUVOwQ7KatJe7wDyJB5w28=",
+      "Fingerprint": "fbd31xzbhv",
+      "Integrity": "1eRbweBtN47VrveqYIMrG21S5y9G5b03Ta3VkRBtgf8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\css\\backend\\style.css.map"
@@ -1298,12 +1298,12 @@
       "OriginalItemSpec": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\obj\\Debug\\net9.0\\compressed\\td4e06f1rr-ig4q46jw1r.gz",
+      "Identity": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\obj\\Debug\\net9.0\\compressed\\td4e06f1rr-4y6hzf5cck.gz",
       "SourceId": "Farm",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Farm",
-      "RelativePath": "css/backend/style#[.{fingerprint=ig4q46jw1r}]?.css.gz",
+      "RelativePath": "css/backend/style#[.{fingerprint=4y6hzf5cck}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1312,8 +1312,8 @@
       "RelatedAsset": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\css\\backend\\style.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "uf4gszde2u",
-      "Integrity": "etLSd8LsEecCXYU5MqLGKNy8jtb7q3d64FP9SUeSDkM=",
+      "Fingerprint": "i9e77b50lh",
+      "Integrity": "9gYyTNR7AnNzk+dwgwBimrSCuAOlCJSE0H1880lkZOo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\css\\backend\\style.css"
@@ -1585,8 +1585,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ig4q46jw1r",
-      "Integrity": "7toT1eV5fE7G8dPd90a3zyfsQZd5OfFnzn0phIo4iiQ=",
+      "Fingerprint": "4y6hzf5cck",
+      "Integrity": "lNMwg4NzsVvQYkSv+LDSK+daDEah8QJZIaRclUS5SeQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\backend\\style.css"
@@ -1606,8 +1606,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "bpy6zu9xwc",
-      "Integrity": "0f88o3WfUgPxdLHbQerGVvPbh6QqUyJ748zhRlSalJU=",
+      "Fingerprint": "h07eke0r8t",
+      "Integrity": "/5hjx0mgp2/Wr9CMzbP88iTTu6BdIJHicjfQktuuSGs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\backend\\style.css.map"
@@ -1627,8 +1627,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ekdhtpoqkj",
-      "Integrity": "EmB2OZSY3Sum8uYuP5/5q3hiynuGbzfQnzGsyLJjwVI=",
+      "Fingerprint": "00660jzi9o",
+      "Integrity": "4D+XsKWxL0lGOsXO0oC8uPw3hBNb7+zsojghAcyD5XU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\backend\\style.scss"
@@ -3906,442 +3906,7 @@
       ]
     },
     {
-      "Route": "css/backend/style.css",
-      "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\obj\\Debug\\net9.0\\compressed\\td4e06f1rr-ig4q46jw1r.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.004048582996"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "246"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"etLSd8LsEecCXYU5MqLGKNy8jtb7q3d64FP9SUeSDkM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 12:43:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"7toT1eV5fE7G8dPd90a3zyfsQZd5OfFnzn0phIo4iiQ=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-7toT1eV5fE7G8dPd90a3zyfsQZd5OfFnzn0phIo4iiQ="
-        }
-      ]
-    },
-    {
-      "Route": "css/backend/style.css",
-      "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\css\\backend\\style.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "451"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"7toT1eV5fE7G8dPd90a3zyfsQZd5OfFnzn0phIo4iiQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 12:43:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-7toT1eV5fE7G8dPd90a3zyfsQZd5OfFnzn0phIo4iiQ="
-        }
-      ]
-    },
-    {
-      "Route": "css/backend/style.css.bpy6zu9xwc.map",
-      "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\obj\\Debug\\net9.0\\compressed\\okmm00vr3i-bpy6zu9xwc.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.004291845494"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "232"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"/YsyKkwe8Xnkdi7OF2p1/qUVOwQ7KatJe7wDyJB5w28=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 12:43:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"0f88o3WfUgPxdLHbQerGVvPbh6QqUyJ748zhRlSalJU=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "bpy6zu9xwc"
-        },
-        {
-          "Name": "label",
-          "Value": "css/backend/style.css.map"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-0f88o3WfUgPxdLHbQerGVvPbh6QqUyJ748zhRlSalJU="
-        }
-      ]
-    },
-    {
-      "Route": "css/backend/style.css.bpy6zu9xwc.map",
-      "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\css\\backend\\style.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "411"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"0f88o3WfUgPxdLHbQerGVvPbh6QqUyJ748zhRlSalJU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 12:43:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "bpy6zu9xwc"
-        },
-        {
-          "Name": "label",
-          "Value": "css/backend/style.css.map"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-0f88o3WfUgPxdLHbQerGVvPbh6QqUyJ748zhRlSalJU="
-        }
-      ]
-    },
-    {
-      "Route": "css/backend/style.css.bpy6zu9xwc.map.gz",
-      "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\obj\\Debug\\net9.0\\compressed\\okmm00vr3i-bpy6zu9xwc.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "232"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"/YsyKkwe8Xnkdi7OF2p1/qUVOwQ7KatJe7wDyJB5w28=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 12:43:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "bpy6zu9xwc"
-        },
-        {
-          "Name": "label",
-          "Value": "css/backend/style.css.map.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-/YsyKkwe8Xnkdi7OF2p1/qUVOwQ7KatJe7wDyJB5w28="
-        }
-      ]
-    },
-    {
-      "Route": "css/backend/style.css.gz",
-      "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\obj\\Debug\\net9.0\\compressed\\td4e06f1rr-ig4q46jw1r.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "246"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"etLSd8LsEecCXYU5MqLGKNy8jtb7q3d64FP9SUeSDkM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 12:43:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-etLSd8LsEecCXYU5MqLGKNy8jtb7q3d64FP9SUeSDkM="
-        }
-      ]
-    },
-    {
-      "Route": "css/backend/style.css.map",
-      "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\obj\\Debug\\net9.0\\compressed\\okmm00vr3i-bpy6zu9xwc.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.004291845494"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "232"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"/YsyKkwe8Xnkdi7OF2p1/qUVOwQ7KatJe7wDyJB5w28=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 12:43:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"0f88o3WfUgPxdLHbQerGVvPbh6QqUyJ748zhRlSalJU=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-0f88o3WfUgPxdLHbQerGVvPbh6QqUyJ748zhRlSalJU="
-        }
-      ]
-    },
-    {
-      "Route": "css/backend/style.css.map",
-      "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\css\\backend\\style.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "411"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"0f88o3WfUgPxdLHbQerGVvPbh6QqUyJ748zhRlSalJU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 12:43:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-0f88o3WfUgPxdLHbQerGVvPbh6QqUyJ748zhRlSalJU="
-        }
-      ]
-    },
-    {
-      "Route": "css/backend/style.css.map.gz",
-      "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\obj\\Debug\\net9.0\\compressed\\okmm00vr3i-bpy6zu9xwc.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "232"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"/YsyKkwe8Xnkdi7OF2p1/qUVOwQ7KatJe7wDyJB5w28=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 12:43:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-/YsyKkwe8Xnkdi7OF2p1/qUVOwQ7KatJe7wDyJB5w28="
-        }
-      ]
-    },
-    {
-      "Route": "css/backend/style.ekdhtpoqkj.scss",
+      "Route": "css/backend/style.00660jzi9o.scss",
       "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\css\\backend\\style.scss",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4351,7 +3916,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "785"
+          "Value": "7199"
         },
         {
           "Name": "Content-Type",
@@ -4359,11 +3924,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"EmB2OZSY3Sum8uYuP5/5q3hiynuGbzfQnzGsyLJjwVI=\""
+          "Value": "\"4D+XsKWxL0lGOsXO0oC8uPw3hBNb7+zsojghAcyD5XU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 13:02:34 GMT"
+          "Value": "Fri, 07 Mar 2025 07:47:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4373,7 +3938,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ekdhtpoqkj"
+          "Value": "00660jzi9o"
         },
         {
           "Name": "label",
@@ -4381,18 +3946,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-EmB2OZSY3Sum8uYuP5/5q3hiynuGbzfQnzGsyLJjwVI="
+          "Value": "sha256-4D+XsKWxL0lGOsXO0oC8uPw3hBNb7+zsojghAcyD5XU="
         }
       ]
     },
     {
-      "Route": "css/backend/style.ig4q46jw1r.css",
-      "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\obj\\Debug\\net9.0\\compressed\\td4e06f1rr-ig4q46jw1r.gz",
+      "Route": "css/backend/style.4y6hzf5cck.css",
+      "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\obj\\Debug\\net9.0\\compressed\\td4e06f1rr-4y6hzf5cck.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.004048582996"
+          "Quality": "0.000704721635"
         }
       ],
       "ResponseHeaders": [
@@ -4402,15 +3967,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "246"
+          "Value": "1418"
         },
         {
           "Name": "ETag",
-          "Value": "\"etLSd8LsEecCXYU5MqLGKNy8jtb7q3d64FP9SUeSDkM=\""
+          "Value": "\"9gYyTNR7AnNzk+dwgwBimrSCuAOlCJSE0H1880lkZOo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 12:43:33 GMT"
+          "Value": "Fri, 07 Mar 2025 07:47:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4430,13 +3995,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"7toT1eV5fE7G8dPd90a3zyfsQZd5OfFnzn0phIo4iiQ=\""
+          "Value": "W/\"lNMwg4NzsVvQYkSv+LDSK+daDEah8QJZIaRclUS5SeQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ig4q46jw1r"
+          "Value": "4y6hzf5cck"
         },
         {
           "Name": "label",
@@ -4444,12 +4009,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-7toT1eV5fE7G8dPd90a3zyfsQZd5OfFnzn0phIo4iiQ="
+          "Value": "sha256-lNMwg4NzsVvQYkSv+LDSK+daDEah8QJZIaRclUS5SeQ="
         }
       ]
     },
     {
-      "Route": "css/backend/style.ig4q46jw1r.css",
+      "Route": "css/backend/style.4y6hzf5cck.css",
       "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\css\\backend\\style.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4459,7 +4024,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "451"
+          "Value": "9256"
         },
         {
           "Name": "Content-Type",
@@ -4467,11 +4032,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"7toT1eV5fE7G8dPd90a3zyfsQZd5OfFnzn0phIo4iiQ=\""
+          "Value": "\"lNMwg4NzsVvQYkSv+LDSK+daDEah8QJZIaRclUS5SeQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 12:43:33 GMT"
+          "Value": "Fri, 07 Mar 2025 07:47:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4481,7 +4046,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ig4q46jw1r"
+          "Value": "4y6hzf5cck"
         },
         {
           "Name": "label",
@@ -4489,13 +4054,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-7toT1eV5fE7G8dPd90a3zyfsQZd5OfFnzn0phIo4iiQ="
+          "Value": "sha256-lNMwg4NzsVvQYkSv+LDSK+daDEah8QJZIaRclUS5SeQ="
         }
       ]
     },
     {
-      "Route": "css/backend/style.ig4q46jw1r.css.gz",
-      "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\obj\\Debug\\net9.0\\compressed\\td4e06f1rr-ig4q46jw1r.gz",
+      "Route": "css/backend/style.4y6hzf5cck.css.gz",
+      "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\obj\\Debug\\net9.0\\compressed\\td4e06f1rr-4y6hzf5cck.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4504,7 +4069,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "246"
+          "Value": "1418"
         },
         {
           "Name": "Content-Type",
@@ -4512,11 +4077,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"etLSd8LsEecCXYU5MqLGKNy8jtb7q3d64FP9SUeSDkM=\""
+          "Value": "\"9gYyTNR7AnNzk+dwgwBimrSCuAOlCJSE0H1880lkZOo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 12:43:33 GMT"
+          "Value": "Fri, 07 Mar 2025 07:47:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4534,7 +4099,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ig4q46jw1r"
+          "Value": "4y6hzf5cck"
         },
         {
           "Name": "label",
@@ -4542,7 +4107,442 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-etLSd8LsEecCXYU5MqLGKNy8jtb7q3d64FP9SUeSDkM="
+          "Value": "sha256-9gYyTNR7AnNzk+dwgwBimrSCuAOlCJSE0H1880lkZOo="
+        }
+      ]
+    },
+    {
+      "Route": "css/backend/style.css",
+      "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\obj\\Debug\\net9.0\\compressed\\td4e06f1rr-4y6hzf5cck.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000704721635"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1418"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9gYyTNR7AnNzk+dwgwBimrSCuAOlCJSE0H1880lkZOo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Mar 2025 07:47:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"lNMwg4NzsVvQYkSv+LDSK+daDEah8QJZIaRclUS5SeQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lNMwg4NzsVvQYkSv+LDSK+daDEah8QJZIaRclUS5SeQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/backend/style.css",
+      "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\css\\backend\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9256"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lNMwg4NzsVvQYkSv+LDSK+daDEah8QJZIaRclUS5SeQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Mar 2025 07:47:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lNMwg4NzsVvQYkSv+LDSK+daDEah8QJZIaRclUS5SeQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/backend/style.css.gz",
+      "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\obj\\Debug\\net9.0\\compressed\\td4e06f1rr-4y6hzf5cck.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1418"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9gYyTNR7AnNzk+dwgwBimrSCuAOlCJSE0H1880lkZOo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Mar 2025 07:47:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9gYyTNR7AnNzk+dwgwBimrSCuAOlCJSE0H1880lkZOo="
+        }
+      ]
+    },
+    {
+      "Route": "css/backend/style.css.h07eke0r8t.map",
+      "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\obj\\Debug\\net9.0\\compressed\\okmm00vr3i-h07eke0r8t.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001201923077"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "831"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1eRbweBtN47VrveqYIMrG21S5y9G5b03Ta3VkRBtgf8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Mar 2025 07:47:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"/5hjx0mgp2/Wr9CMzbP88iTTu6BdIJHicjfQktuuSGs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h07eke0r8t"
+        },
+        {
+          "Name": "label",
+          "Value": "css/backend/style.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/5hjx0mgp2/Wr9CMzbP88iTTu6BdIJHicjfQktuuSGs="
+        }
+      ]
+    },
+    {
+      "Route": "css/backend/style.css.h07eke0r8t.map",
+      "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\css\\backend\\style.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4639"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/5hjx0mgp2/Wr9CMzbP88iTTu6BdIJHicjfQktuuSGs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Mar 2025 07:47:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h07eke0r8t"
+        },
+        {
+          "Name": "label",
+          "Value": "css/backend/style.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/5hjx0mgp2/Wr9CMzbP88iTTu6BdIJHicjfQktuuSGs="
+        }
+      ]
+    },
+    {
+      "Route": "css/backend/style.css.h07eke0r8t.map.gz",
+      "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\obj\\Debug\\net9.0\\compressed\\okmm00vr3i-h07eke0r8t.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "831"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1eRbweBtN47VrveqYIMrG21S5y9G5b03Ta3VkRBtgf8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Mar 2025 07:47:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h07eke0r8t"
+        },
+        {
+          "Name": "label",
+          "Value": "css/backend/style.css.map.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1eRbweBtN47VrveqYIMrG21S5y9G5b03Ta3VkRBtgf8="
+        }
+      ]
+    },
+    {
+      "Route": "css/backend/style.css.map",
+      "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\obj\\Debug\\net9.0\\compressed\\okmm00vr3i-h07eke0r8t.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001201923077"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "831"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1eRbweBtN47VrveqYIMrG21S5y9G5b03Ta3VkRBtgf8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Mar 2025 07:47:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"/5hjx0mgp2/Wr9CMzbP88iTTu6BdIJHicjfQktuuSGs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/5hjx0mgp2/Wr9CMzbP88iTTu6BdIJHicjfQktuuSGs="
+        }
+      ]
+    },
+    {
+      "Route": "css/backend/style.css.map",
+      "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\css\\backend\\style.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4639"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/5hjx0mgp2/Wr9CMzbP88iTTu6BdIJHicjfQktuuSGs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Mar 2025 07:47:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/5hjx0mgp2/Wr9CMzbP88iTTu6BdIJHicjfQktuuSGs="
+        }
+      ]
+    },
+    {
+      "Route": "css/backend/style.css.map.gz",
+      "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\obj\\Debug\\net9.0\\compressed\\okmm00vr3i-h07eke0r8t.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "831"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1eRbweBtN47VrveqYIMrG21S5y9G5b03Ta3VkRBtgf8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Mar 2025 07:47:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1eRbweBtN47VrveqYIMrG21S5y9G5b03Ta3VkRBtgf8="
         }
       ]
     },
@@ -4557,7 +4557,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "785"
+          "Value": "7199"
         },
         {
           "Name": "Content-Type",
@@ -4565,11 +4565,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"EmB2OZSY3Sum8uYuP5/5q3hiynuGbzfQnzGsyLJjwVI=\""
+          "Value": "\"4D+XsKWxL0lGOsXO0oC8uPw3hBNb7+zsojghAcyD5XU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 13:02:34 GMT"
+          "Value": "Fri, 07 Mar 2025 07:47:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4579,7 +4579,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-EmB2OZSY3Sum8uYuP5/5q3hiynuGbzfQnzGsyLJjwVI="
+          "Value": "sha256-4D+XsKWxL0lGOsXO0oC8uPw3hBNb7+zsojghAcyD5XU="
         }
       ]
     },

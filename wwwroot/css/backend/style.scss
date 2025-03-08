@@ -1,36 +1,195 @@
+@import'../_font';
 @media all and (min-width: 0) {
-    .container {
-        main {
-            display: block;
-            .all-admin-manage {
-                display: flex;
-                .nav-menu {
-                    width: 25%;
-                    ul {
-                        padding: 0;
-                        list-style: none;
+    .container-admin {
+        .all-admin-manage {
+            width: 100%;
+            margin: auto;
+            display: flex;
+            .nav-menu {
+                width: 25%;
+                ul {
+                    background-color: #009879;
+                    left: 10%;
+                    top: 45px;
+                    width: 200px;
+                    height: 100%;
+                    position: absolute;
+                    padding: 30px 0 0 20px;
+                    list-style: none;
+                    li {
+                         :hover {
+                            color: rgb(83.4, 83.6, 100.8);
+                        }
+                        margin-bottom: 20px;
+                        a {
+                            font-family: "Montserrat";
+                            color: #fff;
+                            text-decoration: none;
+                        }
                     }
                 }
-                .content-admin {
-                    width: 75%;
-                }
             }
-        }
-    }
-    .table-user {
-        width: 100%;
-        margin: 15px 0;
-        tr {
-            th,
-            td {
-                padding: 15px 0;
-                width: 25%;
-                text-align: center;
+            .content-admin {
+                margin-top: 20px;
+                width: 75%;
+                .all-user-list {
+                    .add-search-user {
+                        display: flex;
+                        align-items: center;
+                        .btn-add-user {
+                            border-radius: 5px;
+                            cursor: pointer;
+                            width: 80px;
+                            padding: 10px 0;
+                            background-color: green;
+                            text-align: center;
+                            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                            a {
+                                padding: 10px 20px;
+                                border-radius: 5px;
+                                text-decoration: none;
+                                color: rgb(231, 231, 238);
+                            }
+                        }
+                        .btn-add-user :hover {
+                            color: #fff;
+                            box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+                        }
+                        .form-search {
+                            margin-left: 10px;
+                            input {
+                                border: none;
+                                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                                width: 100%;
+                                padding: 10px 0;
+                                outline: none;
+                                border-radius: 5px;
+                            }
+                        }
+                        .btn-search {
+                            cursor: pointer;
+                            margin-left: 10px;
+                            button {
+                                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                                border-radius: 5px;
+                                cursor: pointer;
+                                border: none;
+                                padding: 10px 0;
+                                width: 80px;
+                                color: rgb(231, 231, 238);
+                                background-color: green;
+                            }
+                            button:hover {
+                                color: #fff;
+                                box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+                            }
+                        }
+                    }
+                    .table-user {
+                        border-collapse: collapse;
+                        font-size: 0.9em;
+                        font-family: "Montserrat";
+                        min-width: 400px;
+                        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+                        width: 100%;
+                        margin: 15px 0;
+                        thead,
+                        tbody {
+                            tr {
+                                th,
+                                td {
+                                    padding: 12px 15px;
+                                    width: 25%;
+                                    text-align: center;
+                                }
+                            }
+                        }
+                        tbody tr {
+                            border-bottom: 1px solid #dddddd;
+                        }
+                        tbody tr:nth-of-type(even) {
+                            background-color: #f3f3f3;
+                        }
+                        tbody tr:last-of-type {
+                            border-bottom: 2px solid #009879;
+                        }
+                        tbody tr.active-row {
+                            font-weight: bold;
+                            color: #009879;
+                        }
+                        thead {
+                            tr {
+                                background-color: #009879;
+                                color: #ffffff;
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+                form {
+                    .form-inputs {
+                        p {
+                            margin: 0;
+                            font-family: 'Montserrat';
+                            font-weight: 600;
+                            font-size: 16px;
+                        }
+                        select {
+                            margin: 10px 0;
+                            width: 100%;
+                            padding: 10px;
+                            width: 80%;
+                            border-radius: 5px;
+                            outline: none;
+                            border: none;
+                            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                        }
+                        input {
+                            border: none;
+                            margin: 10px 0;
+                            width: 80%;
+                            padding: 10px;
+                            outline: none;
+                            border-radius: 5px;
+                            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                        }
+                        input[type="submit"] {
+                            outline: none;
+                            border: none;
+                            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                            background-color: rgb(12, 166, 17);
+                            color: #fff;
+                            cursor: pointer;
+                        }
+                    }
+                }
             }
         }
     }
 }
 
-@media all and (min-width: 521px) {}
+@media all and (min-width: 521px) {
+    .container-admin {
+        .all-admin-manage {
+            width: 480px;
+            .nav-menu {}
+            .content-admin {}
+        }
+    }
+    .table-user {
+        tr {
+            th,
+            td {}
+        }
+    }
+}
 
-@media all and (min-width: 1201px) {}
+@media all and (min-width: 1201px) {
+    .container-admin {
+        .all-admin-manage {
+            width: 1200px;
+            .nav-menu {}
+            .content-admin {}
+        }
+    }
+}

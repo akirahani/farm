@@ -308,7 +308,8 @@ D:\ITSOFTWARE\WinformApp\ASPNetWeb\Farm\obj\Debug\net9.0\ref\Farm.dll
 D:\ITSOFTWARE\WinformApp\ASPNetWeb\Farm\obj\Debug\net9.0\compressed\ou286jckdk-0ejk7dq4f2.gz
 D:\ITSOFTWARE\WinformApp\ASPNetWeb\Farm\obj\Debug\net9.0\compressed\f2g2prir9p-59jqvp0qy1.gz
 D:\ITSOFTWARE\WinformApp\ASPNetWeb\Farm\obj\Debug\net9.0\compressed\9jimsegttc-xt24gdy8kg.gz
-D:\ITSOFTWARE\WinformApp\ASPNetWeb\Farm\obj\Debug\net9.0\compressed\td4e06f1rr-ig4q46jw1r.gz
-D:\ITSOFTWARE\WinformApp\ASPNetWeb\Farm\obj\Debug\net9.0\compressed\okmm00vr3i-bpy6zu9xwc.gz
 D:\ITSOFTWARE\WinformApp\ASPNetWeb\Farm\obj\Debug\net9.0\compressed\fp0toldbwl-6qrdq1xi8p.gz
 D:\ITSOFTWARE\WinformApp\ASPNetWeb\Farm\obj\Debug\net9.0\compressed\hctu3rik5t-hgx488qo2y.gz
+D:\ITSOFTWARE\WinformApp\ASPNetWeb\Farm\obj\Debug\net9.0\Farm.sourcelink.json
+D:\ITSOFTWARE\WinformApp\ASPNetWeb\Farm\obj\Debug\net9.0\compressed\td4e06f1rr-4y6hzf5cck.gz
+D:\ITSOFTWARE\WinformApp\ASPNetWeb\Farm\obj\Debug\net9.0\compressed\okmm00vr3i-h07eke0r8t.gz

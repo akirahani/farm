@@ -1,51 +1,6 @@
 @{
-    ViewData["Title"] = "User Manage";
+    ViewData["Title"] = "Admin";    
     Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
 }
-@{
-    ViewData["Title"] = "Admin";
-    List<MenuAdmin> arr_menu = new List<MenuAdmin>() {
-        new MenuAdmin {
-           name = "QL nhân viên",
-           link = "./user"
-        },
-        new MenuAdmin{
-            name ="QL Cá thể ",
-            link ="./user"
-        },
-        new MenuAdmin{
-            name = "QL Loại cá thể",
-            link ="./user"
-        },
-        new MenuAdmin{
-            name = "QL Chuồng",
-            link ="./user"
-        },
-        new MenuAdmin{
-            name = "QL Lệnh khám",
-            link ="./user"
-        },
-        new MenuAdmin {
-            name = "QL Thông tin liên hệ",
-            link ="./user"
-        },
-        new MenuAdmin {
-            name = "QL giao dịch",
-            link ="./user"
-        },
-        new MenuAdmin {
-            name = "QL tin tức",
-            link = "./user"
-        }
-    };   
-}
-<div class="nav-menu">
-    <ul>
-    @foreach(var item  in arr_menu){
-        <li>
-            <a href="@item.link">@item.name</a>
-        </li>
-    }     
-    </ul>
-</div>
+
 <h1>Admin</h1>

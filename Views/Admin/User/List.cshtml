@@ -2,47 +2,81 @@
     ViewData["Title"] = "User Manage";
     Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
 }
-@model List<User>
-@* @section UserList { *@
-   <table class="table-user">
-     <tr>
-        <th>
-            Họ tên
-        </th>
-        <th>
-            Tên tài khoản
-        </th>
-        <th>
-            Quyền hạn
-        </th>
-        <th>
-           Tác vụ
-        </th>
-    </tr>
-
-    @foreach(var user in Model)
-    {
-        <tr>
-            <td>
-                @user.name
-            </td>
-            <td>
-                @user.username
-            </td>
-            <td>
-                @if(@user.role ==1 ){
-                    <p>Quản trị viên</p>
-                }else{
-                    <p>Nhân viên</p>
+@model LoginViewModel
+    <div class="all-user-list">
+        <div class="add-search-user">
+            <div class="btn-add-user">
+                <a href="../admin/user/add" class="btn btn-success">Thêm</a>
+            </div>
+            <div class="form-search">
+                <input type="text" name="search-blog" id="input-6" class="form-control mb-3 ">
+            </div>
+            <div class="btn-search">
+                <button class="search-blog-button" type="button">Tìm</button>
+            </div>
+        </div>
+        <table class="table-user">
+            <thead>
+                <tr>
+                    <th>
+                        Họ tên
+                    </th>
+                    <th>
+                        Tên tài khoản
+                    </th>
+                    <th>
+                        Quyền hạn
+                    </th>
+                    <th>
+                    Tác vụ
+                    </th>
+                </tr>
+            </thead>
+            <tbody class="blogtable">
+            @foreach(var user in Model.userList)
+            {
+                <tr>
+                    <td>
+                        @user.name
+                    </td>
+                    <td>
+                        @user.username
+                    </td>
+                    <td>
+                        @if(@user.role ==1 ){
+                            <p>Quản trị viên</p>
+                        }else{
+                            <p>Nhân viên</p>
+                        }
+                        
+                    </td>
+                    <td>
+                        <a href="/admin/user/edit?id=@user.id"> Sửa </a>
+                        <a href="/admin/user/delete?id=@user.id"> Xóa </a>
+                    
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table> 
+    </div>
+  
+<script>
+     $('.search-blog-button').click(function(){
+        let searchb = $('input[name="search-blog"]').val();
+        $.ajax({
+            type: "POST",
+            url: "/admin/blog/search",
+            data:{
+                _token: "{{ csrf_token() }}",
+                "search": searchb,
+            },
+            statusCode: {
+                200: function (data) {
+                    $('tbody.blogtable').html(data.data);
                 }
-                
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@user.id">Edit</a> |
-                <a asp-action="Delete" asp-route-id="@user.id">Delete</a>
-            </td>
-        </tr>
-    }
-</table> 
-@* } *@
+            }
+        });
+    });
+</script>
 

@@ -1,4 +1,40 @@
 
+@{
+    List<MenuAdmin> arr_menu = new List<MenuAdmin>() {
+        new MenuAdmin {
+            name = "QL nhân viên",
+            link = "../admin/user"
+        },
+        new MenuAdmin{
+            name ="QL Cá thể ",
+            link ="../admin/user"
+        },
+        new MenuAdmin{
+            name = "QL Loại cá thể",
+            link ="../admin/user"
+        },
+        new MenuAdmin{
+            name = "QL Chuồng",
+            link ="../admin/user"
+        },
+        new MenuAdmin{
+            name = "QL Lệnh khám",
+            link ="../admin/user"
+        },
+       new MenuAdmin {
+            name = "QL Thông tin liên hệ",
+            link ="../admin/user"
+        },
+        new MenuAdmin {
+            name = "QL giao dịch",
+            link ="../admin/user"
+        },
+        new MenuAdmin {
+            name = "QL tin tức",
+            link = "../admin/user"
+        }
+    };   
+}
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,6 +45,7 @@
     @* admin *@
     <link rel="stylesheet" href="~/css/backend/style.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/backend/login.css" asp-append-version="true" />
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
 
 </head>
 <header>
@@ -41,24 +78,42 @@
 
             <div class="authenticate">
                 @{
-                    if(@TempData["Result"] != null){
-                        <p class="toggle-logout">@TempData["Result"]</p> 
-                        <div class="box-logout"><a asp-controller="Auth" asp-action="Logout">Đăng xuất</a></div>
+                    if(ViewBag.nameSession != null){
+                        if(ViewBag.nameSession != ""){
+                            <p class="toggle-logout">@ViewBag.nameSession</p> 
+                            <div class="box-logout"><a asp-controller="Auth" asp-action="Logout">Đăng xuất</a></div>
+                        }else{
+                            <p>name log</p>
+                        }
                     }else{
                         <a asp-controller="Auth" asp-action="Login" >Đăng nhập</a> 
 
-                    }
+                    } 
+                    
                 }
             </div>
         </>
     </nav>
 </header>
-<section class="all-admin-manage">
-
-    <div class="content-admin">
-        @RenderBody();
-    </div>
-</section>
+     <div class="container-admin">
+        <section class="all-admin-manage">
+            <div class="nav-menu">
+                <ul>
+                @foreach(var item  in arr_menu){
+                    <li>
+                        <a href="@item.link">@item.name</a>
+                    </li>
+                }     
+                </ul>
+            </div>
+            <div class="content-admin">
+                @RenderBody()
+            </div>
+        </section>
+     </div>
+<script src="~/js/owl_carousel.js" asp-append-version="true"></script> 
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
 @await RenderSectionAsync("Scripts", required: false)
 
 

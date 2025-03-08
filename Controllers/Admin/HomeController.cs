@@ -9,6 +9,7 @@ using System.Data;
 namespace Farm.Controllers.Admin;
 public class HomeController : Controller
 {
+    public const string SessionKeyName = "_Name";
     private readonly MvcBasicDbContext _context;
 
     public HomeController(MvcBasicDbContext context){
@@ -17,7 +18,9 @@ public class HomeController : Controller
 
     [Route("/admin", Name="admin")]
     public IActionResult Index()
-    {
+    {          
+        var sessionName = HttpContext.Session.GetString(SessionKeyName);
+        ViewBag.nameSession = sessionName;
         return View("~/Views/Admin/Index.cshtml");
     }
 

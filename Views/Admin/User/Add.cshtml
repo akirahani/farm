@@ -1,0 +1,39 @@
+@model LoginViewModel
+
+@using(Html.BeginForm("Insert","User",FormMethod.Post)){
+
+    <div class="form-inputs">
+        <p>Name</p>
+        @Html.TextBoxFor(model => model.userList.FirstOrDefault().name, new { @Value = "",@type="text"})
+    </div>
+    <div class="form-inputs">
+        <p>Username</p>
+        @Html.TextBoxFor(model => model.userList.FirstOrDefault().username ,new { @Value = "",@type="text" })
+    </div>
+    <div class="form-inputs">
+        <p>Password</p>
+        @Html.TextBoxFor(model => model.userList.FirstOrDefault().passd ,new { @Value = "",@type="password" })
+    </div>
+    <div class="form-inputs">
+        <p>Role</p>
+        @{
+        List<SelectListItem> listItems= new List<SelectListItem>();
+        listItems.Add(new SelectListItem
+            {
+                Text = "Quản trị viên",
+                Value = "1"
+            });
+        listItems.Add(new SelectListItem
+            {
+                Text = "Nhân viên",
+                Value = "2",
+                Selected = true
+            });
+
+        }
+        @Html.DropDownListFor(model => model.userList.FirstOrDefault().role,listItems,"")
+    </div>
+    <div class="form-inputs">
+        <input type="submit" name="insert" value="Thêm">
+    </div>
+}

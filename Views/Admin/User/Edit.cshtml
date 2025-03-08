@@ -1,0 +1,59 @@
+@model LoginViewModel
+@using (Html.BeginForm("Update", "User", FormMethod.Post)){
+        <div class="form-inputs">
+            @Html.TextBox("id",(int)ViewBag.id,new { @Value = "",@type="hidden" })
+
+        </div>
+        <div class="form-inputs">
+            <p>Name</p>
+            @if(ViewBag.name != null){
+                @Html.TextBox("name",(String)ViewBag.name,new { @Value = "",@type="text" })
+            }else{
+                @Html.TextBox("name",null,new { @Value = "",@type="text" })
+            }
+        </div>
+        <div class="form-inputs">
+            <p>Username</p> 
+            @if(ViewBag.username != null){
+                @Html.TextBox("username",(String)ViewBag.username,new { @Value = "",@type="text" })
+            }else{
+                @Html.TextBox("username",null,new { @Value = "",@type="text" })
+            }
+        </div>
+        <div class="form-inputs">
+            <p>Password</p> 
+            @if(ViewBag.passd != null){
+                @Html.TextBox("passd",(String)ViewBag.passd,new { @Value = "",@type="password" })
+            }else{
+                @Html.TextBox("passd",null,new { @Value = "",@type="text" })
+            }
+        </div>
+       <div class="form-inputs">
+        <p>Role</p>
+        @{
+            List<SelectListItem> listItems= new List<SelectListItem>();
+            listItems.Add(new SelectListItem
+                {
+                    Text = "Quản trị viên",
+                    Value = "1"
+                });
+            listItems.Add(new SelectListItem
+                {
+                    Text = "Nhân viên",
+                    Value = "2",
+                });
+            foreach(var its in listItems){
+                if(int.Parse(its.Value) == ViewBag.role){
+                    its.Selected.CompareTo(true);
+                    its.Selected = true;
+                }
+            }
+                
+        }
+        @Html.DropDownListFor(model => model.userList.FirstOrDefault().role,listItems,"")
+
+        </div>
+        <div class="form-inputs">
+            <input type="submit" value="Cập nhật">
+        </div>
+}

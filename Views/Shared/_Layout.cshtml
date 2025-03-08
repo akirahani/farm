@@ -1,7 +1,5 @@
 ﻿
-@using Microsoft.AspNetCore.Http;
-@inject IHttpContextAccessor HttpContextAccessor
-
+@model LoginViewModel
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -45,14 +43,20 @@
                 </div>
 
                 <div class="authenticate">
-                    @{
-                        if(@TempData["Result"] != null){
-                            <p class="toggle-logout">@TempData["Result"]</p> 
-                            <div class="box-logout"><a asp-controller="Auth" asp-action="Logout">Đăng xuất</a></div>
+                    @{ 
+       
+                        if(Model != null){
+                            if(Model.name != ""){
+                                <p class="toggle-logout">@Model.name</p> 
+                                <div class="box-logout"><a asp-controller="Auth" asp-action="Logout">Đăng xuất</a></div>
+                            }else{
+                                <p>name log</p>
+                            }
                         }else{
-                           <a asp-controller="Auth" asp-action="Login" >Đăng nhập</a> 
+                            <a asp-controller="Auth" asp-action="Login" >Đăng nhập</a> 
 
-                        }
+                        } 
+
                     }
                 </div>
             </>

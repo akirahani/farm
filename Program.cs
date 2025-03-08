@@ -40,7 +40,6 @@ app.MapStaticAssets();
 app.UseSession();
 
 
-
 // ROUTER
 app.MapControllerRoute(
     name: "default",
@@ -79,6 +78,10 @@ app.MapControllerRoute(
 app.MapControllerRoute(
     name: "admin.user",
     pattern: "~/Admin/{controller=User}/{action=List}/{id?}")
+    .WithStaticAssets();
+app.MapControllerRoute(
+    name: "admin.user.edit",
+    pattern: "~/Admin/{controller=User}/{action=Edit}/{id?}")
     .WithStaticAssets();
 
 
