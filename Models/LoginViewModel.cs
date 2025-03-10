@@ -8,4 +8,7 @@ public class LoginViewModel
     public string passd {get; set;}
     public string name {get; set;}
     public List<User> userList {get; set;}
+
+    public List<News> newsList {get; set;}
+
 }

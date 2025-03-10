@@ -101,6 +101,9 @@
                                     padding: 12px 15px;
                                     width: 25%;
                                     text-align: center;
+                                    img {
+                                        width: 100%;
+                                    }
                                 }
                             }
                         }
@@ -128,6 +131,9 @@
                 }
                 form {
                     .form-inputs {
+                        img {
+                            width: calc(70% - 100px);
+                        }
                         p {
                             margin: 0;
                             font-family: 'Montserrat';

@@ -11,5 +11,7 @@ namespace mvcbasic.Data
         }
  
         public DbSet<User> Users { get; set; }
+        public DbSet<News> News { get; set; }
+
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0C4qFj+Eglwv4EMmB9YCPAvhGJVXHI/u5XrnkABZQvw=",
+  "Hash": "EYknEmOakCrgojxyLQAt34z4uXKJcjDv5mGcCjA1VoM=",
   "Source": "Farm",
   "BasePath": "_content/Farm",
   "Mode": "Default",
@@ -1151,12 +1151,12 @@
       "OriginalItemSpec": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\obj\\Debug\\net9.0\\compressed\\okmm00vr3i-h07eke0r8t.gz",
+      "Identity": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\obj\\Debug\\net9.0\\compressed\\okmm00vr3i-hbbogt217r.gz",
       "SourceId": "Farm",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Farm",
-      "RelativePath": "css/backend/style.css#[.{fingerprint=h07eke0r8t}]?.map.gz",
+      "RelativePath": "css/backend/style.css#[.{fingerprint=hbbogt217r}]?.map.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1165,8 +1165,8 @@
       "RelatedAsset": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\css\\backend\\style.css.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "fbd31xzbhv",
-      "Integrity": "1eRbweBtN47VrveqYIMrG21S5y9G5b03Ta3VkRBtgf8=",
+      "Fingerprint": "kdsrw62li7",
+      "Integrity": "mN/gEmd/2RaGIVGQ2ZiCXMqnE3MMht09ZplUWUYBTEs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\css\\backend\\style.css.map"
@@ -1298,12 +1298,12 @@
       "OriginalItemSpec": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\obj\\Debug\\net9.0\\compressed\\td4e06f1rr-4y6hzf5cck.gz",
+      "Identity": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\obj\\Debug\\net9.0\\compressed\\td4e06f1rr-3wiqcqmom1.gz",
       "SourceId": "Farm",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Farm",
-      "RelativePath": "css/backend/style#[.{fingerprint=4y6hzf5cck}]?.css.gz",
+      "RelativePath": "css/backend/style#[.{fingerprint=3wiqcqmom1}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1312,8 +1312,8 @@
       "RelatedAsset": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\css\\backend\\style.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "i9e77b50lh",
-      "Integrity": "9gYyTNR7AnNzk+dwgwBimrSCuAOlCJSE0H1880lkZOo=",
+      "Fingerprint": "1zocn2a4r0",
+      "Integrity": "bWgW2ffuuo9qXW84R4ir+Yi/FWrpIRNIKKziRpu/uRw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\css\\backend\\style.css"
@@ -1585,8 +1585,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "4y6hzf5cck",
-      "Integrity": "lNMwg4NzsVvQYkSv+LDSK+daDEah8QJZIaRclUS5SeQ=",
+      "Fingerprint": "3wiqcqmom1",
+      "Integrity": "I3Ym+lVWaqtr95hbwVsNXkuG70uqJBs4qPJ0hAurVto=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\backend\\style.css"
@@ -1606,8 +1606,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "h07eke0r8t",
-      "Integrity": "/5hjx0mgp2/Wr9CMzbP88iTTu6BdIJHicjfQktuuSGs=",
+      "Fingerprint": "hbbogt217r",
+      "Integrity": "s6yA1u+ZagvV0QZ55fAur0LjfwF2hz2VDck3hEglHYs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\backend\\style.css.map"
@@ -1627,8 +1627,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "00660jzi9o",
-      "Integrity": "4D+XsKWxL0lGOsXO0oC8uPw3hBNb7+zsojghAcyD5XU=",
+      "Fingerprint": "5qohtqxqfn",
+      "Integrity": "bQy3+alW2gorgm45xsfYbsbGusutVM+9McCaVcpNNpg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\backend\\style.scss"
@@ -3060,6 +3060,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Identity": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\uploads\\Screenshot 2024-05-25 225824.png",
+      "SourceId": "Farm",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\",
+      "BasePath": "_content/Farm",
+      "RelativePath": "uploads/Screenshot 2024-05-25 225824#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kialr5fz7e",
+      "Integrity": "fAdszJaYGsJFQ+pUYuXN9T3eEhraSgSzmEy6OPbtLEo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Screenshot 2024-05-25 225824.png"
     }
   ],
   "Endpoints": [
@@ -3906,7 +3927,168 @@
       ]
     },
     {
-      "Route": "css/backend/style.00660jzi9o.scss",
+      "Route": "css/backend/style.3wiqcqmom1.css",
+      "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\obj\\Debug\\net9.0\\compressed\\td4e06f1rr-3wiqcqmom1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000686341798"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1456"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bWgW2ffuuo9qXW84R4ir+Yi/FWrpIRNIKKziRpu/uRw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:01:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"I3Ym+lVWaqtr95hbwVsNXkuG70uqJBs4qPJ0hAurVto=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3wiqcqmom1"
+        },
+        {
+          "Name": "label",
+          "Value": "css/backend/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-I3Ym+lVWaqtr95hbwVsNXkuG70uqJBs4qPJ0hAurVto="
+        }
+      ]
+    },
+    {
+      "Route": "css/backend/style.3wiqcqmom1.css",
+      "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\css\\backend\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9735"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I3Ym+lVWaqtr95hbwVsNXkuG70uqJBs4qPJ0hAurVto=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:01:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3wiqcqmom1"
+        },
+        {
+          "Name": "label",
+          "Value": "css/backend/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-I3Ym+lVWaqtr95hbwVsNXkuG70uqJBs4qPJ0hAurVto="
+        }
+      ]
+    },
+    {
+      "Route": "css/backend/style.3wiqcqmom1.css.gz",
+      "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\obj\\Debug\\net9.0\\compressed\\td4e06f1rr-3wiqcqmom1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1456"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bWgW2ffuuo9qXW84R4ir+Yi/FWrpIRNIKKziRpu/uRw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:01:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3wiqcqmom1"
+        },
+        {
+          "Name": "label",
+          "Value": "css/backend/style.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bWgW2ffuuo9qXW84R4ir+Yi/FWrpIRNIKKziRpu/uRw="
+        }
+      ]
+    },
+    {
+      "Route": "css/backend/style.5qohtqxqfn.scss",
       "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\css\\backend\\style.scss",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3916,7 +4098,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7199"
+          "Value": "7642"
         },
         {
           "Name": "Content-Type",
@@ -3924,11 +4106,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4D+XsKWxL0lGOsXO0oC8uPw3hBNb7+zsojghAcyD5XU=\""
+          "Value": "\"bQy3+alW2gorgm45xsfYbsbGusutVM+9McCaVcpNNpg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 07:47:09 GMT"
+          "Value": "Mon, 10 Mar 2025 12:01:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3938,7 +4120,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "00660jzi9o"
+          "Value": "5qohtqxqfn"
         },
         {
           "Name": "label",
@@ -3946,179 +4128,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-4D+XsKWxL0lGOsXO0oC8uPw3hBNb7+zsojghAcyD5XU="
-        }
-      ]
-    },
-    {
-      "Route": "css/backend/style.4y6hzf5cck.css",
-      "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\obj\\Debug\\net9.0\\compressed\\td4e06f1rr-4y6hzf5cck.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000704721635"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1418"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"9gYyTNR7AnNzk+dwgwBimrSCuAOlCJSE0H1880lkZOo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 07:47:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"lNMwg4NzsVvQYkSv+LDSK+daDEah8QJZIaRclUS5SeQ=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "4y6hzf5cck"
-        },
-        {
-          "Name": "label",
-          "Value": "css/backend/style.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-lNMwg4NzsVvQYkSv+LDSK+daDEah8QJZIaRclUS5SeQ="
-        }
-      ]
-    },
-    {
-      "Route": "css/backend/style.4y6hzf5cck.css",
-      "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\css\\backend\\style.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9256"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"lNMwg4NzsVvQYkSv+LDSK+daDEah8QJZIaRclUS5SeQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 07:47:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "4y6hzf5cck"
-        },
-        {
-          "Name": "label",
-          "Value": "css/backend/style.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-lNMwg4NzsVvQYkSv+LDSK+daDEah8QJZIaRclUS5SeQ="
-        }
-      ]
-    },
-    {
-      "Route": "css/backend/style.4y6hzf5cck.css.gz",
-      "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\obj\\Debug\\net9.0\\compressed\\td4e06f1rr-4y6hzf5cck.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1418"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"9gYyTNR7AnNzk+dwgwBimrSCuAOlCJSE0H1880lkZOo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 07:47:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "4y6hzf5cck"
-        },
-        {
-          "Name": "label",
-          "Value": "css/backend/style.css.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-9gYyTNR7AnNzk+dwgwBimrSCuAOlCJSE0H1880lkZOo="
+          "Value": "sha256-bQy3+alW2gorgm45xsfYbsbGusutVM+9McCaVcpNNpg="
         }
       ]
     },
     {
       "Route": "css/backend/style.css",
-      "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\obj\\Debug\\net9.0\\compressed\\td4e06f1rr-4y6hzf5cck.gz",
+      "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\obj\\Debug\\net9.0\\compressed\\td4e06f1rr-3wiqcqmom1.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000704721635"
+          "Quality": "0.000686341798"
         }
       ],
       "ResponseHeaders": [
@@ -4128,15 +4149,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1418"
+          "Value": "1456"
         },
         {
           "Name": "ETag",
-          "Value": "\"9gYyTNR7AnNzk+dwgwBimrSCuAOlCJSE0H1880lkZOo=\""
+          "Value": "\"bWgW2ffuuo9qXW84R4ir+Yi/FWrpIRNIKKziRpu/uRw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 07:47:10 GMT"
+          "Value": "Mon, 10 Mar 2025 12:01:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4156,13 +4177,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"lNMwg4NzsVvQYkSv+LDSK+daDEah8QJZIaRclUS5SeQ=\""
+          "Value": "W/\"I3Ym+lVWaqtr95hbwVsNXkuG70uqJBs4qPJ0hAurVto=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-lNMwg4NzsVvQYkSv+LDSK+daDEah8QJZIaRclUS5SeQ="
+          "Value": "sha256-I3Ym+lVWaqtr95hbwVsNXkuG70uqJBs4qPJ0hAurVto="
         }
       ]
     },
@@ -4177,7 +4198,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9256"
+          "Value": "9735"
         },
         {
           "Name": "Content-Type",
@@ -4185,11 +4206,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"lNMwg4NzsVvQYkSv+LDSK+daDEah8QJZIaRclUS5SeQ=\""
+          "Value": "\"I3Ym+lVWaqtr95hbwVsNXkuG70uqJBs4qPJ0hAurVto=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 07:47:10 GMT"
+          "Value": "Mon, 10 Mar 2025 12:01:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4199,13 +4220,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-lNMwg4NzsVvQYkSv+LDSK+daDEah8QJZIaRclUS5SeQ="
+          "Value": "sha256-I3Ym+lVWaqtr95hbwVsNXkuG70uqJBs4qPJ0hAurVto="
         }
       ]
     },
     {
       "Route": "css/backend/style.css.gz",
-      "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\obj\\Debug\\net9.0\\compressed\\td4e06f1rr-4y6hzf5cck.gz",
+      "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\obj\\Debug\\net9.0\\compressed\\td4e06f1rr-3wiqcqmom1.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4214,7 +4235,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1418"
+          "Value": "1456"
         },
         {
           "Name": "Content-Type",
@@ -4222,11 +4243,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9gYyTNR7AnNzk+dwgwBimrSCuAOlCJSE0H1880lkZOo=\""
+          "Value": "\"bWgW2ffuuo9qXW84R4ir+Yi/FWrpIRNIKKziRpu/uRw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 07:47:10 GMT"
+          "Value": "Mon, 10 Mar 2025 12:01:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4244,18 +4265,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-9gYyTNR7AnNzk+dwgwBimrSCuAOlCJSE0H1880lkZOo="
+          "Value": "sha256-bWgW2ffuuo9qXW84R4ir+Yi/FWrpIRNIKKziRpu/uRw="
         }
       ]
     },
     {
-      "Route": "css/backend/style.css.h07eke0r8t.map",
-      "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\obj\\Debug\\net9.0\\compressed\\okmm00vr3i-h07eke0r8t.gz",
+      "Route": "css/backend/style.css.hbbogt217r.map",
+      "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\obj\\Debug\\net9.0\\compressed\\okmm00vr3i-hbbogt217r.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001201923077"
+          "Quality": "0.001180637544"
         }
       ],
       "ResponseHeaders": [
@@ -4265,15 +4286,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "831"
+          "Value": "846"
         },
         {
           "Name": "ETag",
-          "Value": "\"1eRbweBtN47VrveqYIMrG21S5y9G5b03Ta3VkRBtgf8=\""
+          "Value": "\"mN/gEmd/2RaGIVGQ2ZiCXMqnE3MMht09ZplUWUYBTEs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 07:47:10 GMT"
+          "Value": "Mon, 10 Mar 2025 12:01:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4293,13 +4314,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"/5hjx0mgp2/Wr9CMzbP88iTTu6BdIJHicjfQktuuSGs=\""
+          "Value": "W/\"s6yA1u+ZagvV0QZ55fAur0LjfwF2hz2VDck3hEglHYs=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "h07eke0r8t"
+          "Value": "hbbogt217r"
         },
         {
           "Name": "label",
@@ -4307,12 +4328,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-/5hjx0mgp2/Wr9CMzbP88iTTu6BdIJHicjfQktuuSGs="
+          "Value": "sha256-s6yA1u+ZagvV0QZ55fAur0LjfwF2hz2VDck3hEglHYs="
         }
       ]
     },
     {
-      "Route": "css/backend/style.css.h07eke0r8t.map",
+      "Route": "css/backend/style.css.hbbogt217r.map",
       "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\css\\backend\\style.css.map",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4322,7 +4343,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4639"
+          "Value": "4705"
         },
         {
           "Name": "Content-Type",
@@ -4330,11 +4351,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/5hjx0mgp2/Wr9CMzbP88iTTu6BdIJHicjfQktuuSGs=\""
+          "Value": "\"s6yA1u+ZagvV0QZ55fAur0LjfwF2hz2VDck3hEglHYs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 07:47:10 GMT"
+          "Value": "Mon, 10 Mar 2025 12:01:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4344,7 +4365,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "h07eke0r8t"
+          "Value": "hbbogt217r"
         },
         {
           "Name": "label",
@@ -4352,13 +4373,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-/5hjx0mgp2/Wr9CMzbP88iTTu6BdIJHicjfQktuuSGs="
+          "Value": "sha256-s6yA1u+ZagvV0QZ55fAur0LjfwF2hz2VDck3hEglHYs="
         }
       ]
     },
     {
-      "Route": "css/backend/style.css.h07eke0r8t.map.gz",
-      "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\obj\\Debug\\net9.0\\compressed\\okmm00vr3i-h07eke0r8t.gz",
+      "Route": "css/backend/style.css.hbbogt217r.map.gz",
+      "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\obj\\Debug\\net9.0\\compressed\\okmm00vr3i-hbbogt217r.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4367,7 +4388,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "831"
+          "Value": "846"
         },
         {
           "Name": "Content-Type",
@@ -4375,11 +4396,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1eRbweBtN47VrveqYIMrG21S5y9G5b03Ta3VkRBtgf8=\""
+          "Value": "\"mN/gEmd/2RaGIVGQ2ZiCXMqnE3MMht09ZplUWUYBTEs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 07:47:10 GMT"
+          "Value": "Mon, 10 Mar 2025 12:01:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4397,7 +4418,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "h07eke0r8t"
+          "Value": "hbbogt217r"
         },
         {
           "Name": "label",
@@ -4405,18 +4426,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-1eRbweBtN47VrveqYIMrG21S5y9G5b03Ta3VkRBtgf8="
+          "Value": "sha256-mN/gEmd/2RaGIVGQ2ZiCXMqnE3MMht09ZplUWUYBTEs="
         }
       ]
     },
     {
       "Route": "css/backend/style.css.map",
-      "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\obj\\Debug\\net9.0\\compressed\\okmm00vr3i-h07eke0r8t.gz",
+      "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\obj\\Debug\\net9.0\\compressed\\okmm00vr3i-hbbogt217r.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001201923077"
+          "Quality": "0.001180637544"
         }
       ],
       "ResponseHeaders": [
@@ -4426,15 +4447,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "831"
+          "Value": "846"
         },
         {
           "Name": "ETag",
-          "Value": "\"1eRbweBtN47VrveqYIMrG21S5y9G5b03Ta3VkRBtgf8=\""
+          "Value": "\"mN/gEmd/2RaGIVGQ2ZiCXMqnE3MMht09ZplUWUYBTEs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 07:47:10 GMT"
+          "Value": "Mon, 10 Mar 2025 12:01:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4454,13 +4475,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"/5hjx0mgp2/Wr9CMzbP88iTTu6BdIJHicjfQktuuSGs=\""
+          "Value": "W/\"s6yA1u+ZagvV0QZ55fAur0LjfwF2hz2VDck3hEglHYs=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/5hjx0mgp2/Wr9CMzbP88iTTu6BdIJHicjfQktuuSGs="
+          "Value": "sha256-s6yA1u+ZagvV0QZ55fAur0LjfwF2hz2VDck3hEglHYs="
         }
       ]
     },
@@ -4475,7 +4496,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4639"
+          "Value": "4705"
         },
         {
           "Name": "Content-Type",
@@ -4483,11 +4504,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/5hjx0mgp2/Wr9CMzbP88iTTu6BdIJHicjfQktuuSGs=\""
+          "Value": "\"s6yA1u+ZagvV0QZ55fAur0LjfwF2hz2VDck3hEglHYs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 07:47:10 GMT"
+          "Value": "Mon, 10 Mar 2025 12:01:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4497,13 +4518,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/5hjx0mgp2/Wr9CMzbP88iTTu6BdIJHicjfQktuuSGs="
+          "Value": "sha256-s6yA1u+ZagvV0QZ55fAur0LjfwF2hz2VDck3hEglHYs="
         }
       ]
     },
     {
       "Route": "css/backend/style.css.map.gz",
-      "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\obj\\Debug\\net9.0\\compressed\\okmm00vr3i-h07eke0r8t.gz",
+      "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\obj\\Debug\\net9.0\\compressed\\okmm00vr3i-hbbogt217r.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4512,7 +4533,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "831"
+          "Value": "846"
         },
         {
           "Name": "Content-Type",
@@ -4520,11 +4541,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1eRbweBtN47VrveqYIMrG21S5y9G5b03Ta3VkRBtgf8=\""
+          "Value": "\"mN/gEmd/2RaGIVGQ2ZiCXMqnE3MMht09ZplUWUYBTEs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 07:47:10 GMT"
+          "Value": "Mon, 10 Mar 2025 12:01:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4542,7 +4563,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-1eRbweBtN47VrveqYIMrG21S5y9G5b03Ta3VkRBtgf8="
+          "Value": "sha256-mN/gEmd/2RaGIVGQ2ZiCXMqnE3MMht09ZplUWUYBTEs="
         }
       ]
     },
@@ -4557,7 +4578,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7199"
+          "Value": "7642"
         },
         {
           "Name": "Content-Type",
@@ -4565,11 +4586,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4D+XsKWxL0lGOsXO0oC8uPw3hBNb7+zsojghAcyD5XU=\""
+          "Value": "\"bQy3+alW2gorgm45xsfYbsbGusutVM+9McCaVcpNNpg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 07:47:09 GMT"
+          "Value": "Mon, 10 Mar 2025 12:01:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4579,7 +4600,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-4D+XsKWxL0lGOsXO0oC8uPw3hBNb7+zsojghAcyD5XU="
+          "Value": "sha256-bQy3+alW2gorgm45xsfYbsbGusutVM+9McCaVcpNNpg="
         }
       ]
     },
@@ -24196,6 +24217,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-JKWeHUaANNuffeRatdc54UCb84RoxjEw/nTq8Mops8Y="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Screenshot 2024-05-25 225824.kialr5fz7e.png",
+      "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\uploads\\Screenshot 2024-05-25 225824.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "832983"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fAdszJaYGsJFQ+pUYuXN9T3eEhraSgSzmEy6OPbtLEo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:33:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kialr5fz7e"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Screenshot 2024-05-25 225824.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fAdszJaYGsJFQ+pUYuXN9T3eEhraSgSzmEy6OPbtLEo="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Screenshot 2024-05-25 225824.png",
+      "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\uploads\\Screenshot 2024-05-25 225824.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "832983"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fAdszJaYGsJFQ+pUYuXN9T3eEhraSgSzmEy6OPbtLEo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:33:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fAdszJaYGsJFQ+pUYuXN9T3eEhraSgSzmEy6OPbtLEo="
         }
       ]
     }

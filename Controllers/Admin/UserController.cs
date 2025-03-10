@@ -22,38 +22,11 @@ public class UserController : Controller
     [Route("/admin/user", Name="admin.user")]
     public  IActionResult List()
     {
-        string connectionString = "Server=ADMIN\\SQLEXPRESS;Database=farm;Trusted_Connection=True;TrustServerCertificate=True;";
-        SqlConnection conn = new(connectionString);
-        String sql = "SELECT * FROM users";
-        SqlCommand cmd = new(sql, conn);
-        var model = new List<User>();
         var userList = new LoginViewModel();
-        conn.Open();
-
-        using(conn)
-        {
-            using (SqlDataReader reader = cmd.ExecuteReader(CommandBehavior.CloseConnection))
-            {
-                if (reader.HasRows)
-                {
-                    while (reader.Read())
-                    {
-                        var user = new User();
-                        user.name = reader["name"].ToString();
-                        user.username = reader["username"].ToString();
-                        user.role = (int)reader["role"];
-                        user.id = (int)reader["id"];
-
-                        model.Add(user);
-                    }
-                }
-            }
-        }
-        userList.userList = model;
-        conn.Close();
+        userList.userList = _context.Users.ToList();
         var sessionName = HttpContext.Session.GetString(SessionKeyName);
         ViewBag.nameSession = sessionName;
-        if(ViewBag.nameSession != null){
+        if(ViewBag.nameSession != ""){
             return View("~/Views/Admin/User/List.cshtml",userList);
         }else{
             return Redirect("/login");
@@ -67,7 +40,7 @@ public class UserController : Controller
     {
         var sessionName = HttpContext.Session.GetString(SessionKeyName);
         ViewBag.nameSession = sessionName;
-        if(ViewBag.nameSession != null){
+        if(ViewBag.nameSession != ""){
             return View("~/Views/Admin/User/Add.cshtml");
         }else{
             return Redirect("/login");
