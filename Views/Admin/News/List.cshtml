@@ -1,0 +1,87 @@
+@{
+    ViewData["Title"] = "User Manage";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+@model LoginViewModel
+    <div class="all-user-list">
+        <div class="add-search-user">
+            <div class="btn-add-user">
+                <a href="../admin/news/add" class="btn btn-success">Thêm</a>
+            </div>
+            <div class="form-search">
+                <input type="text" name="search-blog" id="input-6" class="form-control mb-3 ">
+            </div>
+            <div class="btn-search">
+                <button class="search-blog-button" type="button">Tìm</button>
+            </div>
+        </div>
+        <table class="table-user">
+            <thead>
+                <tr>
+                    <th>
+                        Tiêu đề
+                    </th>
+                    <th>
+                        Ảnh tin tức
+                    </th>
+                    <th>
+                        Thời gian                    
+                    </th>
+                    <th>
+                    Tác vụ
+                    </th>
+                </tr>
+            </thead>
+            <tbody class="blogtable">
+                @foreach(var news in Model.newsList)
+                {
+                    if(news != null){
+                        <tr>
+                            <td>
+                                @if(news.title != null){
+                                    @news.title 
+                                }else{
+                                    <p></p>
+                                }
+                            </td>
+                            <td>
+                                @if(news.image != null){
+                                    <img src="~/uploads/@news.image" alt="Ảnh tin tức"> 
+                                }else{
+                                    <img src="" alt="Ảnh tin tức">
+                                }
+                            </td>
+                            <td>
+                                @news.created_at.ToString("yyyy-MM-dd")
+                            </td>
+                            <td>
+                                <a href="/admin/news/edit?id=@news.id"> Sửa </a>
+                                <a href="/admin/news/delete?id=@news.id"> Xóa </a>
+                            
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table> 
+    </div>
+  
+<script>
+     $('.search-blog-button').click(function(){
+        let searchb = $('input[name="search-blog"]').val();
+        $.ajax({
+            type: "POST",
+            url: "/admin/news/search",
+            data:{
+                _token: "{{ csrf_token() }}",
+                "search": searchb,
+            },
+            statusCode: {
+                200: function (data) {
+                    $('tbody.blogtable').html(data.data);
+                }
+            }
+        });
+    });
+</script>
+

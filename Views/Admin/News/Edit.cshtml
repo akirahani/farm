@@ -1,0 +1,49 @@
+@model LoginViewModel
+@using (Html.BeginForm("Update", "News", FormMethod.Post, new{ enctype="multipart/form-data"})){
+        <div class="form-inputs">
+            @Html.TextBox("id",(int)ViewBag.id,new { @Value = "",@type="hidden" })
+        </div>
+        <div class="form-inputs">
+            <p>Title</p>
+            @if(ViewBag.title != null){
+                @Html.TextBox("title",(String)ViewBag.title,new { @Value = "",@type="text" })
+            }else{
+                @Html.TextBox("title",null,new { @Value = "",@type="text" })
+            }
+        </div>
+        <div class="form-inputs">
+            <p>Image</p> 
+            <br>
+            @if(ViewBag.image != null){
+               @Html.TextBox("file","",new { @Value = "",@type="file" })
+               <img src="~/uploads/@ViewBag.image" alt="Ảnh tin tức"> 
+            }else{
+                @Html.TextBox("subtit",null,new { @Value = "",@type="file" })
+            }
+
+        </div>
+        <div class="form-inputs">
+            <p>Subtit</p> 
+            @if(ViewBag.subtit != null){
+                @Html.TextBox("subtit",(String)ViewBag.subtit,new { @Value = "",@type="text" })
+            }else{
+                @Html.TextBox("subtit",null,new { @Value = "",@type="text" })
+            }
+     
+        </div>
+        <div class="form-inputs">
+            <p>Content</p> 
+            @if(ViewBag.content != null){
+                @Html.TextArea("content",(String)ViewBag.content)
+            }else{
+                @Html.TextArea("content",null)
+            }
+        </div>
+        <div class="form-inputs">
+            <p>Created_at</p>
+            <span>@ViewBag.created_at</span>
+        </div>
+        <div class="form-inputs">
+            <input type="submit" value="Cập nhật">
+        </div>
+}

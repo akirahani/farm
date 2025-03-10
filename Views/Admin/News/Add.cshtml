@@ -1,0 +1,24 @@
+@model LoginViewModel
+
+@using(Html.BeginForm("Insert","News",FormMethod.Post, new{ enctype="multipart/form-data"})){
+
+    <div class="form-inputs">
+        <p>Title</p>
+         @Html.TextBoxFor(model => model.newsList.FirstOrDefault().title, new {  type= "text"})
+    </div>
+    <div class="form-inputs">
+        <p>Subtitle</p>
+         @Html.TextBoxFor(model => model.newsList.FirstOrDefault().subtit, new {  type= "text"})
+    </div>
+    <div class="form-inputs">
+        <p>Image</p> 
+        @Html.TextBoxFor( model => model.newsList.FirstOrDefault().file, new {  type= "file"})
+    </div>
+    <div class="form-inputs">
+        <p>Content</p> 
+        @Html.TextAreaFor(model => model.newsList.FirstOrDefault().content)
+    </div>
+    <div class="form-inputs">
+        <input type="submit" name="insert" value="Thêm">
+    </div>
+}

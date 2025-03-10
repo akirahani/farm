@@ -305,6 +305,10 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
     },
     {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\uploads\\Screenshot 2024-05-25 225824.png",
+      "PackagePath": "staticwebassets\\uploads\\Screenshot 2024-05-25 225824.png"
+    },
+    {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Farm.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
