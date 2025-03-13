@@ -1,0 +1,106 @@
+@using mvcbasic.Data
+@{
+    ViewData["Title"] = "cage Manage";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+
+}
+@model LoginViewModel
+<div class="all-user-list">
+    <div class="add-search-user">
+        <div class="btn-add-user">
+            <a href="../admin/animal/add" class="btn btn-success">Thêm</a>
+        </div>
+        <div class="form-search">
+            <input type="text" name="search-animal" id="input-6" class="form-control mb-3 ">
+        </div>
+        <div class="btn-search">
+            <button class="search-animal-button" type="button">Tìm</button>
+        </div>
+    </div>
+    <table class="table-user">
+        <thead>
+            <tr>
+                <th>
+                    Mã cá thể
+                </th>
+                <th>
+                    Loại cá thể
+                </th>
+                <th>
+                    Chuồng
+                </th>
+                <th>
+                    Tác vụ
+                </th>
+            </tr>
+        </thead>
+        <tbody class="usertable">
+            @{
+                string[] arr_cate = new string[100];
+                foreach(var itemCate in ViewBag.cateList){
+                    arr_cate[itemCate.id] = itemCate.name;
+                }
+
+                string[] arr_cage = new string[100];
+                foreach(var itemCage in ViewBag.cageList){
+                    arr_cage[itemCage.id] = itemCage.name;
+                }
+            }
+            @{
+                foreach(var animal in ViewBag.animalList)
+                {
+                <tr>
+                    <td>
+                        @animal.name
+                    </td>
+                    <td>
+                        @arr_cate[animal.category_id]
+                    </td>
+                    <td>
+                        @arr_cage[animal.cage_id] - @animal.cage_id
+                    </td>
+                    <td>
+                        <a href="/admin/animal/edit?id=@animal.id" class="edit"> Sửa </a>
+                        <a href="/admin/animal/delete?id=@animal.id" class="del"> Xóa </a>
+                    
+                    </td>
+                </tr>
+            }}
+            </tbody>
+        </table> 
+    </div>
+  
+<script>
+     $('.search-animal-button').click(function(){
+        let searchb = $('input[name="search-animal"]').val();
+        console.log(searchb);
+        $.ajax({
+            type: "POST",
+            url: "/admin/animal/search",
+            data:{
+                _token: "{{ csrf_token() }}",
+                "search": searchb,
+            },
+            statusCode: {
+                200: function (data) {
+                    console.log(data);
+                    let rlts = '';
+                    $.each(data.arr_animal, function(index, at){
+                         rlts +='<tr>';
+                            rlts +=' <td> '+at.name +'</td>';
+                          rlts +='<td>'+data.cate[at.category_id]+'</td>';
+                         rlts +='<td>'+data.cage[at.cage_id]+'</td>';
+                         rlts +='<td>';
+                           rlts +='<a href="/admin/animal/edit?id='+at.id+'" class="edit"> Sửa </a>';
+                             rlts +='<a href="/admin/animal/delete?id='+at.id+'" class="del"> Xóa </a>';
+                            
+                            rlts +=' </td>';
+                        rlts +='</tr>';
+                    });
+                    $('tbody.usertable').html(rlts);
+                }
+            }
+        });
+    });
+</script>
+

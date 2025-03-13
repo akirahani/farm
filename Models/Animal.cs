@@ -7,7 +7,7 @@ public class Animal{
     public string name {get; set;}
     public int cage_id {get; set;}
     public int category_id {get; set;}
-    public float height {get; set;}
+    public double height {get; set;}
     public int status {get; set;}
     public DateTime created_at {get; set;}
     public DateTime date_in {get; set;}

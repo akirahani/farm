@@ -1,0 +1,109 @@
+@model LoginViewModel
+
+@using(Html.BeginForm("Update","Cage",FormMethod.Post)){
+    <div class="form-inputs">
+        @Html.TextBox("id",(int)ViewBag.id,new { @Value = "",@type="hidden" })
+    </div>
+    <div class="form-inputs">
+        <p>Name</p>
+        @if(ViewBag.name != null){
+            @Html.TextBox("name",(String)ViewBag.name,new { @Value = "",@type="text" })
+        }else{
+            @Html.TextBox("name",null,new { @Value = "",@type="text" })
+        }
+    </div>
+    <div class="form-inputs">
+        <p>Quantity</p>
+        @if(ViewBag.quantity != null){
+            @Html.TextBox("quantity",(int)ViewBag.quantity,new { @Value = "",@type="number" })
+        }else{
+            @Html.TextBox("quantity",0,new { @Value = "",@type="text" })
+        }
+    </div>
+    <div class="form-inputs">
+        <p>Note</p>
+        @if(ViewBag.note != null){
+            @Html.TextBox("note",(String)ViewBag.note,new { @Value = "",@type="text" })
+        }else{
+            @Html.TextBox("note",null,new { @Value = "",@type="text" })
+        }
+    </div>
+    <div class="form-inputs">
+        <p>Người quản lý</p>
+        @{
+            List<SelectListItem> listItems= new List<SelectListItem>();
+            foreach(var itemUser in ViewBag.arr_user){
+                var valUser = itemUser.id.ToString();
+                listItems.Add(new SelectListItem{
+                    Text = itemUser.name,
+                    Value = valUser
+                });
+            }
+
+            foreach(var its in listItems){
+                if(int.Parse(its.Value) == ViewBag.users_id){
+                    its.Selected.CompareTo(true);
+                    its.Selected = true;
+                }
+            }
+
+        }
+        @Html.DropDownListFor(model => model.cageList.FirstOrDefault().users_id,listItems,"")
+    </div>
+
+    <div class="form-inputs">
+        <p>Loại cá thể</p>
+        @{
+            List<SelectListItem> listItemCate= new List<SelectListItem>();
+            foreach(var itemCate in ViewBag.arr_cate){
+                var valCate = itemCate.id.ToString();
+                listItemCate.Add(new SelectListItem{
+                    Text = itemCate.name,
+                    Value = valCate
+                });
+
+                foreach(var itsc in listItemCate){
+                    if(int.Parse(itsc.Value) == ViewBag.category_id){
+                        itsc.Selected.CompareTo(true);
+                        itsc.Selected = true;
+                    }
+                }
+            }
+        }
+        @Html.DropDownListFor(model => model.cageList.FirstOrDefault().category_id,listItemCate,"")
+    </div>
+    <div class="form-inputs">
+        @Html.TextBox("created_at",(DateTime)ViewBag.created_at,new { @Value = "",@type="datetime" })
+    </div>
+    <div class="form-inputs">
+        @Html.TextBox("close_at",(DateTime)ViewBag.close_at,new { @Value = "",@type="datetime" })
+    </div>
+    <div class="form-inputs">
+        <p>Trạng thái</p>
+        @{
+            List<SelectListItem> listItemStatus= new List<SelectListItem>();
+                listItemStatus.Add(new SelectListItem{
+                    Text = "Đã đủ",
+                    Value = "1"
+                });
+                listItemStatus.Add(new SelectListItem{
+                    Text = "Chưa đủ",
+                    Value = "2"
+                });
+                listItemStatus.Add(new SelectListItem{
+                    Text = "Đóng cửa",
+                    Value = "3"
+                });
+            foreach(var itst in listItemStatus){
+                if(int.Parse(itst.Value) == ViewBag.status){
+                    itst.Selected.CompareTo(true);
+                    itst.Selected = true;
+                }
+            }
+        }
+        @Html.DropDownListFor(model => model.cageList.FirstOrDefault().status,listItemStatus,"")
+    </div>
+    <div class="form-inputs">
+        <input type="submit" name="update" value="Cập nhật">
+    </div>
+}

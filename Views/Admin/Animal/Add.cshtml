@@ -1,0 +1,74 @@
+@model LoginViewModel
+
+@using(Html.BeginForm("Insert","Animal",FormMethod.Post)){
+    
+    <div class="form-inputs">
+        <p>Name</p>
+        @Html.TextBoxFor(model => model.animalList.FirstOrDefault().name, new {@type="text"})
+    </div>
+    <div class="form-inputs">
+        <p>Height</p>
+        @Html.TextBoxFor(model => model.animalList.FirstOrDefault().height ,new { @type="number", @step="any" })
+    </div>
+    <div class="form-inputs">
+        <p>Chuồng</p>
+        @{
+            List<SelectListItem> listItems= new List<SelectListItem>();
+                foreach(var itemUser in ViewBag.arr_cage){
+                    var valUser = itemUser.id.ToString();
+                    listItems.Add(new SelectListItem{
+                        Text = itemUser.name,
+                        Value = valUser
+                    });
+                }           
+        }
+        @Html.DropDownListFor(model => model.animalList.FirstOrDefault().cage_id,listItems,"")
+    </div> 
+
+    <div class="form-inputs">
+        <p>Loại cá thể</p>
+        @{
+            List<SelectListItem> listItemCate= new List<SelectListItem>();
+
+            foreach(var itemCate in ViewBag.arr_cate){
+                var valCate = itemCate.id.ToString();
+                listItemCate.Add(new SelectListItem{
+                    Text = itemCate.name,
+                    Value = valCate
+                });
+            }
+        }
+        @Html.DropDownListFor(model => model.animalList.FirstOrDefault().category_id,listItemCate,"")
+    </div>
+    <div class="form-inputs">
+        <p>Date In</p>
+        <input asp-for="@Model.animalList.FirstOrDefault().date_in" />
+    </div>
+    <div class="form-inputs">
+        <p>Date Out</p>
+        <input asp-for="@Model.animalList.FirstOrDefault().date_out" />
+    </div>
+
+    <div class="form-inputs">
+        <p>Trạng thái</p>
+        @{
+            List<SelectListItem> listItemStatus= new List<SelectListItem>();
+                listItemStatus.Add(new SelectListItem{
+                    Text = "Khỏe mạnh",
+                    Value = "1"
+                });
+                listItemStatus.Add(new SelectListItem{
+                    Text = "Bệnh",
+                    Value = "2"
+                });
+                listItemStatus.Add(new SelectListItem{
+                    Text = "Đã xuất chuồng",
+                    Value = "3"
+                });
+        }
+        @Html.DropDownListFor(model => model.animalList.FirstOrDefault().status,listItemStatus,"")
+    </div> 
+    <div class="form-inputs">
+        <input type="submit" name="insert" value="Thêm">
+    </div>
+}

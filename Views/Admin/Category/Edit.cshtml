@@ -1,0 +1,24 @@
+@model LoginViewModel
+
+@using(Html.BeginForm("Update","Category",FormMethod.Post)){
+    @Html.TextBox("id",(int)ViewBag.id,new { @Value = "",@type="hidden" })
+    <div class="form-inputs">
+        <p>Name</p>
+        @if(ViewBag.name != null){
+            @Html.TextBox("name",(String)ViewBag.name,new { @Value = "",@type="text" })
+        }else{
+            @Html.TextBox("name",null,new { @Value = "",@type="text" })
+        }
+    </div>
+    <div class="form-inputs">
+        <p>Parent_id</p>
+        @if(ViewBag.parent_id != null){
+            @Html.TextBox("parent_id",(int)ViewBag.parent_id,new { @Value = "",@type="number" })
+        }else{
+            @Html.TextBox("parent_id",null,new { @Value = "",@type="number" })
+        }
+    </div>
+    <div class="form-inputs">
+        <input type="submit" name="update" value="Sửa">
+    </div>
+}

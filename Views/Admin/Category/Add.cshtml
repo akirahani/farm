@@ -1,0 +1,16 @@
+@model LoginViewModel
+
+@using(Html.BeginForm("Insert","Category",FormMethod.Post)){
+
+    <div class="form-inputs">
+        <p>Name</p>
+        @Html.TextBoxFor(model => model.categoryList.FirstOrDefault().name, new { @Value = "",@type="text"})
+    </div>
+    <div class="form-inputs">
+        <p>Parent_id</p>
+        @Html.TextBoxFor(model => model.categoryList.FirstOrDefault().parent_id, new { @Value = "",@type="number"})
+    </div>
+    <div class="form-inputs">
+        <input type="submit" name="insert" value="Thêm">
+    </div>
+}
