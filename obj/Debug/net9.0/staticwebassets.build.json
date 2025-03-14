@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ep94IFNsMHc7wHKW18jQc+e48e8y5GQMUFBflgrtE0k=",
+  "Hash": "/kx17ciL5xJ1spXhhEuVM81qebE5OzIv/q50pCxRSv4=",
   "Source": "Farm",
   "BasePath": "_content/Farm",
   "Mode": "Default",
@@ -3062,6 +3062,27 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
+      "Identity": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\uploads\\01bd673d-7548-4d56-abf6-c54e508c755bphoto.jpeg",
+      "SourceId": "Farm",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\",
+      "BasePath": "_content/Farm",
+      "RelativePath": "uploads/01bd673d-7548-4d56-abf6-c54e508c755bphoto#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9kgqushv97",
+      "Integrity": "p4vT6zRkgoLo0WzNNpL4ukHoY8nT6AA0SiBO1ng+XzY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\01bd673d-7548-4d56-abf6-c54e508c755bphoto.jpeg"
+    },
+    {
       "Identity": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\uploads\\Screenshot 2024-05-25 225824.png",
       "SourceId": "Farm",
       "SourceType": "Discovered",
@@ -3996,7 +4017,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 08:50:45 GMT"
+          "Value": "Fri, 14 Mar 2025 04:25:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4049,7 +4070,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 08:50:45 GMT"
+          "Value": "Fri, 14 Mar 2025 04:25:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4088,7 +4109,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 08:50:45 GMT"
+          "Value": "Fri, 14 Mar 2025 04:25:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4149,7 +4170,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 08:50:45 GMT"
+          "Value": "Fri, 14 Mar 2025 04:25:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4194,7 +4215,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 08:50:45 GMT"
+          "Value": "Fri, 14 Mar 2025 04:25:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4247,7 +4268,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 08:50:45 GMT"
+          "Value": "Fri, 14 Mar 2025 04:25:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4294,7 +4315,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 08:50:45 GMT"
+          "Value": "Fri, 14 Mar 2025 04:25:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4347,7 +4368,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 08:50:45 GMT"
+          "Value": "Fri, 14 Mar 2025 04:25:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4384,7 +4405,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 08:50:45 GMT"
+          "Value": "Fri, 14 Mar 2025 04:25:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4431,7 +4452,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 08:50:45 GMT"
+          "Value": "Fri, 14 Mar 2025 04:25:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4492,7 +4513,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 08:50:45 GMT"
+          "Value": "Fri, 14 Mar 2025 04:25:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4537,7 +4558,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 08:50:45 GMT"
+          "Value": "Fri, 14 Mar 2025 04:25:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24217,6 +24238,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-JKWeHUaANNuffeRatdc54UCb84RoxjEw/nTq8Mops8Y="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/01bd673d-7548-4d56-abf6-c54e508c755bphoto.9kgqushv97.jpeg",
+      "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\uploads\\01bd673d-7548-4d56-abf6-c54e508c755bphoto.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "376485"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p4vT6zRkgoLo0WzNNpL4ukHoY8nT6AA0SiBO1ng+XzY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 06:02:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9kgqushv97"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/01bd673d-7548-4d56-abf6-c54e508c755bphoto.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-p4vT6zRkgoLo0WzNNpL4ukHoY8nT6AA0SiBO1ng+XzY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/01bd673d-7548-4d56-abf6-c54e508c755bphoto.jpeg",
+      "AssetFile": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\uploads\\01bd673d-7548-4d56-abf6-c54e508c755bphoto.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "376485"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p4vT6zRkgoLo0WzNNpL4ukHoY8nT6AA0SiBO1ng+XzY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 06:02:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-p4vT6zRkgoLo0WzNNpL4ukHoY8nT6AA0SiBO1ng+XzY="
         }
       ]
     },

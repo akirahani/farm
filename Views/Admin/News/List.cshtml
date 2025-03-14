@@ -1,5 +1,5 @@
 @{
-    ViewData["Title"] = "User Manage";
+    ViewData["Title"] = "News Manage";
     Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
 }
 @model LoginViewModel
@@ -78,7 +78,20 @@
             },
             statusCode: {
                 200: function (data) {
-                    $('tbody.blogtable').html(data.data);
+                    let rlts = '';
+                    $.each(data, function(index, at){
+                         rlts +='<tr>';
+                            rlts +=' <td> '+at.title +'</td>';
+                          rlts +='<td><img src="../uploads/'+at.image+'" alt="Ảnh tin tức"></td>';
+                         rlts +='<td>'+at.created_at+'</td>';
+                         rlts +='<td>';
+                           rlts +='<a href="/admin/news/edit?id='+at.id+'" class="edit"> Sửa </a>';
+                             rlts +='<a href="/admin/news/delete?id='+at.id+'" class="del"> Xóa </a>';
+                            
+                            rlts +=' </td>';
+                        rlts +='</tr>';
+                    });
+                    $('tbody.blogtable').html(rlts);
                 }
             }
         });

@@ -161,6 +161,29 @@ public class UserController : Controller
         }
     }
 
+    [HttpPost]
+    [Route("/admin/user/search", Name="admin.user.search")]
+    public  JsonResult Search(string search){
+        var sessionName = HttpContext.Session.GetString(SessionKeyName);
+        ViewBag.nameSession = sessionName;
+        if(ViewBag.nameSession != ""){
+            string query = "select * from users where username like '%"+@search+"%' or name like '%"+@search+"%' ";
+            var lst = _context.Users.FromSqlRaw(query).ToList();
+            string[] arr_role = new string[10];
+            arr_role[1] = "Quản trị viên";
+            arr_role[2] = "Nhân viên";
+
+            if (lst != null) {
+                var data = new { arr_user= lst , role = arr_role};
+                return Json(data);
+            }else{
+                return Json(data: "not ok1");
+            }
+        }else{
+            return Json(data: "not ok");
+        }
+    }
+
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {

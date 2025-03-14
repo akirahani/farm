@@ -175,6 +175,25 @@ public class NewsController : Controller
         }
     }
 
+    [HttpPost]
+    [Route("/admin/news/search", Name="admin.search.search")]
+    public  JsonResult Search(string search){
+        var sessionName = HttpContext.Session.GetString(SessionKeyName);
+        ViewBag.nameSession = sessionName;
+        if(ViewBag.nameSession != ""){
+            string query = "select * from news where title like '%"+@search+"%' ";
+            var lst = _context.News.FromSqlRaw(query).ToList();
+           
+            if (lst != null) {
+                return Json(lst);
+            }else{
+                return Json(data: "not ok1");
+            }
+        }else{
+            return Json(data: "not ok");
+        }
+    }
+
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {

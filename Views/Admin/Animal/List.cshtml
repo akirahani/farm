@@ -1,6 +1,6 @@
 @using mvcbasic.Data
 @{
-    ViewData["Title"] = "cage Manage";
+    ViewData["Title"] = "Animal Manage";
     Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
 
 }
@@ -60,8 +60,13 @@
                         @arr_cage[animal.cage_id] - @animal.cage_id
                     </td>
                     <td>
-                        <a href="/admin/animal/edit?id=@animal.id" class="edit"> Sửa </a>
-                        <a href="/admin/animal/delete?id=@animal.id" class="del"> Xóa </a>
+                        @if(animal.status != 3){
+                            <a href="/admin/animal/edit?id=@animal.id" class="edit"> Sửa </a>
+                            <a href="/admin/animal/delete?id=@animal.id" class="del"> Xóa </a>
+                        }else{
+                            <p>Đã xuất chuồng</p>
+                        }
+  
                     
                     </td>
                 </tr>

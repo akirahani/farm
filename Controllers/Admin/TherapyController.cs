@@ -255,6 +255,30 @@ public class TherapyController : Controller
         }
     }
 
+    [HttpPost]
+    [Route("/admin/therapy/search", Name="admin.therapy.search")]
+    public  JsonResult Search(string search){
+        var sessionName = HttpContext.Session.GetString(SessionKeyName);
+        ViewBag.nameSession = sessionName;
+        if(ViewBag.nameSession != ""){
+            string query = "select * from therapy where name like '%"+@search+"%'";
+            var lst = _context.Therapy.FromSqlRaw(query).ToList();
+            string[] arr_animal = new string[10];
+            var animalList = _context.Animal.ToList();
+            foreach(var item in animalList){
+                arr_animal[item.id] = item.name;
+            }
+            if (lst != null) {
+                var data = new { arr_therapy= lst , animal = arr_animal};
+                return Json(data);
+            }else{
+                return Json(data: "not ok1");
+            }
+        }else{
+            return Json(data: "not ok");
+        }
+    }
+
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {

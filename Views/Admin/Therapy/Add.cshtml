@@ -33,10 +33,13 @@
 
             foreach(var itemAnimal in ViewBag.arr_animal){
                 var valAnimal = itemAnimal.id.ToString();
-                listItem.Add(new SelectListItem{
-                    Text = itemAnimal.name,
-                    Value = valAnimal
-                });
+                if(itemAnimal.status != 3){
+                    listItem.Add(new SelectListItem{
+                        Text = itemAnimal.name,
+                        Value = valAnimal
+                    });
+                }
+    
             }
         }
         @Html.DropDownListFor(model => model.therapyList.FirstOrDefault().animal_id,listItem,"")

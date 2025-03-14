@@ -1,0 +1,32 @@
+@model LoginViewModel
+
+@using(Html.BeginForm("Insert","Contact",FormMethod.Post)){
+    
+    <div class="form-inputs">
+        <p>Name</p>
+        @Html.TextBoxFor(model => model.contactList.FirstOrDefault().name, new {@type="text"})
+    </div>
+
+    <div class="form-inputs">
+        <p>Email</p>
+        @Html.TextBoxFor(model => model.contactList.FirstOrDefault().email ,new {@type="text"})
+    </div>    
+    <div class="form-inputs">
+        <p>Phone</p>
+        @Html.TextBoxFor(model => model.contactList.FirstOrDefault().phone,new {@type="text"})
+    </div>    
+    
+    <div class="form-inputs">
+        <p>Address</p>
+        @Html.TextBoxFor(model => model.contactList.FirstOrDefault().address ,new { @type="text"})
+    </div>
+   
+    <div class="form-inputs">
+        <p>Note</p>
+        @Html.TextBoxFor(model => model.contactList.FirstOrDefault().note ,new {@type="text"})
+    </div>
+    
+    <div class="form-inputs">
+        <input type="submit" name="insert" value="Thêm">
+    </div>
+}

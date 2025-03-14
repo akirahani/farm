@@ -1,6 +1,6 @@
 @using mvcbasic.Data
 @{
-    ViewData["Title"] = "cage Manage";
+    ViewData["Title"] = "Therapy Manage";
     Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
 
 }
@@ -66,8 +66,8 @@
     </div>
   
 <script>
-     $('.search-animal-button').click(function(){
-        let searchb = $('input[name="search-cage"]').val();
+     $('.search-user-button').click(function(){
+        let searchb = $('input[name="search-user"]').val();
         $.ajax({
             type: "POST",
             url: "/admin/therapy/search",
@@ -77,7 +77,20 @@
             },
             statusCode: {
                 200: function (data) {
-                    $('tbody.cagetable').html(data.data);
+                    let rlts = '';
+                    $.each(data.arr_therapy, function(index, at){
+                         rlts +='<tr>';
+                            rlts +=' <td> '+at.name +'</td>';
+                          rlts +='<td>'+data.animal[at.animal_id]+'</td>';
+                         rlts +='<td>'+at.doctor+'</td>';
+                         rlts +='<td>';
+                           rlts +='<a href="/admin/therapy/edit?id='+at.id+'" class="edit"> Sửa </a>';
+                             rlts +='<a href="/admin/therapy/delete?id='+at.id+'" class="del"> Xóa </a>';
+                            
+                            rlts +=' </td>';
+                        rlts +='</tr>';
+                    });
+                    $('tbody.usertable').html(rlts);
                 }
             }
         });

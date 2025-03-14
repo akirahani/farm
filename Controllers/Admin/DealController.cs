@@ -65,6 +65,17 @@ public class DealController : Controller
             if(deal != null){
                 if(deal.customer != null){
                     deal.customer = deal.customer;
+      
+                    var u = new Contact
+                    {
+                        name = deal.customer,
+                        email = "",
+                        phone = "",
+                        address = "",
+                        note = "khách giao dịch",
+                        created_at = DateTime.Now
+                    };
+                    _context.Contact.Add(u);
                 }else{
                     deal.customer = "";
                 }
@@ -102,8 +113,6 @@ public class DealController : Controller
                 var data = _context.Animal.Find(id_animal);
                 data.status = 3;
                 _context.Entry(data).State = EntityState.Modified;
-
-
 
                 _context.Add(deal);
                 _context.SaveChanges();
@@ -243,6 +252,31 @@ public class DealController : Controller
             }
         }else{
             return Redirect("login");
+        }
+    }
+
+    [HttpPost]
+    [Route("/admin/deal/search", Name="admin.deal.search")]
+    public  JsonResult Search(string search){
+        var sessionName = HttpContext.Session.GetString(SessionKeyName);
+        ViewBag.nameSession = sessionName;
+        if(ViewBag.nameSession != ""){
+            string query = "select * from deal where customer like '%"+@search+"%' ";
+            var lst = _context.Deal.FromSqlRaw(query).ToList();
+            var listAnimal = _context.Animal.ToList();
+            string[] arr_animal = new string[10];
+            foreach(var itemAnimal in listAnimal){
+                arr_animal[itemAnimal.id] = itemAnimal.name;
+            }
+           
+            if (lst != null) {
+                var data = new { arr_deal = lst, animal= arr_animal };
+                return Json(data);
+            }else{
+                return Json(data: "not ok1");
+            }
+        }else{
+            return Json(data: "not ok");
         }
     }
 

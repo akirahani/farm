@@ -64,7 +64,19 @@
             },
             statusCode: {
                 200: function (data) {
-                    $('tbody.blogtable').html(data.data);
+                    let rlts = '';
+                    $.each(data, function(index, at){
+                         rlts +='<tr>';
+                            rlts +=' <td> '+at.name +'</td>';
+                          rlts +='<td>'+at.parent_id+'</td>';
+                         rlts +='<td>';
+                           rlts +='<a href="/admin/category/edit?id='+at.id+'" class="edit"> Sửa </a>';
+                             rlts +='<a href="/admin/category/delete?id='+at.id+'" class="del"> Xóa </a>';
+                            
+                            rlts +=' </td>';
+                        rlts +='</tr>';
+                    });
+                    $('tbody.blogtable').html(rlts);
                 }
             }
         });

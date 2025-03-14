@@ -2,7 +2,7 @@
 @using Newtonsoft.Json.Linq
 @using mvcbasic.Data
 @{
-    ViewData["Title"] = "cage Manage";
+    ViewData["Title"] = "Deal Manage";
     Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
 
 }
@@ -72,18 +72,31 @@
     </div>
   
 <script>
-     $('.search-animal-button').click(function(){
-        let searchb = $('input[name="search-cage"]').val();
+     $('.search-user-button').click(function(){
+        let searchb = $('input[name="search-user"]').val();
         $.ajax({
             type: "POST",
-            url: "/admin/animal/search",
+            url: "/admin/deal/search",
             data:{
                 _token: "{{ csrf_token() }}",
                 "search": searchb,
             },
             statusCode: {
                 200: function (data) {
-                    $('tbody.cagetable').html(data.data);
+                    let rlts = '';
+                    $.each(data.arr_deal, function(index, at){
+                         rlts +='<tr>';
+                            rlts +=' <td> '+at.customer +'</td>';
+                          rlts +='<td>'+at.total_price+'</td>';
+                         rlts +='<td>'+data.animal[at.animal_id]+'</td>';
+                         rlts +='<td>';
+                           rlts +='<a href="/admin/animal/edit?id='+at.id+'" class="edit"> Sửa </a>';
+                             rlts +='<a href="/admin/animal/delete?id='+at.id+'" class="del"> Xóa </a>';
+                            
+                            rlts +=' </td>';
+                        rlts +='</tr>';
+                    });
+                    $('tbody.usertable').html(rlts);
                 }
             }
         });

@@ -144,6 +144,25 @@ public class CategoryController : Controller
         }
     }
 
+    [HttpPost]
+    [Route("/admin/category/search", Name="admin.category.search")]
+    public  JsonResult Search(string search){
+        var sessionName = HttpContext.Session.GetString(SessionKeyName);
+        ViewBag.nameSession = sessionName;
+        if(ViewBag.nameSession != ""){
+            string query = "select * from category where name like '%"+@search+"%' ";
+            var lst = _context.Category.FromSqlRaw(query).ToList();
+           
+            if (lst != null) {;
+                return Json(lst);
+            }else{
+                return Json("not ok1");
+            }
+        }else{
+            return Json("not ok");
+        }
+    }
+
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
