@@ -3,35 +3,51 @@
     List<MenuAdmin> arr_menu = new List<MenuAdmin>() {
         new MenuAdmin {
             name = "QL nhân viên",
-            link = "../admin/user"
+            link = "../admin/user",
+            controller = "User",
+            action = "List"
         },
         new MenuAdmin{
             name ="QL Cá thể ",
-            link ="../admin/user"
+            link ="../admin/animal",
+            controller = "Animal",
+            action = "List",
         },
         new MenuAdmin{
             name = "QL Loại cá thể",
-            link ="../admin/user"
+            link ="../admin/category",
+            controller = "Category",
+            action = "List"
         },
         new MenuAdmin{
             name = "QL Chuồng",
-            link ="../admin/user"
+            link ="../admin/cage",
+            controller = "Cage",
+            action = "List"
         },
         new MenuAdmin{
             name = "QL Lệnh khám",
-            link ="../admin/user"
+            link ="../admin/therapy",
+            controller = "Therapy",
+            action = "List"
         },
        new MenuAdmin {
             name = "QL Thông tin liên hệ",
-            link ="../admin/user"
+            link ="../admin/contact",
+            controller = "Contact",
+            action = "List"
         },
         new MenuAdmin {
             name = "QL giao dịch",
-            link ="../admin/user"
+            link ="../admin/deal",
+            controller = "Deal",
+            action = "List"
         },
         new MenuAdmin {
             name = "QL tin tức",
-            link = "../admin/news"
+            link = "../admin/news",
+            controller = "News",
+            action = "List"
         }
     };   
 }
@@ -101,7 +117,7 @@
                 <ul>
                 @foreach(var item  in arr_menu){
                     <li>
-                        <a href="@item.link">@item.name</a>
+                        <a asp-controller="@item.controller" asp-action="@item.action">@item.name</a>
                     </li>
                 }     
                 </ul>

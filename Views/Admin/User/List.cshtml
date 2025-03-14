@@ -51,8 +51,8 @@
                         
                     </td>
                     <td>
-                        <a href="/admin/user/edit?id=@user.id"> Sửa </a>
-                        <a href="/admin/user/delete?id=@user.id"> Xóa </a>
+                        <a href="/admin/user/edit?id=@user.id" class="edit"> Sửa </a>
+                        <a href="/admin/user/delete?id=@user.id" class="del"> Xóa </a>
                     
                     </td>
                 </tr>
@@ -66,14 +66,27 @@
         let searchb = $('input[name="search-blog"]').val();
         $.ajax({
             type: "POST",
-            url: "/admin/blog/search",
+            url: "/admin/user/search",
             data:{
                 _token: "{{ csrf_token() }}",
                 "search": searchb,
             },
             statusCode: {
                 200: function (data) {
-                    $('tbody.blogtable').html(data.data);
+                    let rlts = ''; 
+                    $.each(data.arr_user, function(index, at){
+                         rlts +='<tr>';
+                            rlts +=' <td> '+at.name +'</td>';
+                          rlts +='<td>'+at.username+'</td>';
+                         rlts +='<td>'+data.role[at.role]+'</td>';
+                         rlts +='<td>';
+                           rlts +='<a href="/admin/user/edit?id='+at.id+'" class="edit"> Sửa </a>';
+                             rlts +='<a href="/admin/user/delete?id='+at.id+'" class="del"> Xóa </a>';
+                            
+                            rlts +=' </td>';
+                        rlts +='</tr>';
+                    });
+                    $('tbody.blogtable').html(rlts);
                 }
             }
         });

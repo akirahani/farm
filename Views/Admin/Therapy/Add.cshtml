@@ -1,0 +1,51 @@
+@model LoginViewModel
+
+@using(Html.BeginForm("Insert","Therapy",FormMethod.Post)){
+    
+    <div class="form-inputs">
+        <p>Name</p>
+        @Html.TextBoxFor(model => model.therapyList.FirstOrDefault().name, new {@type="text"})
+    </div>
+
+    <div class="form-inputs">
+        <p>Doctor</p>
+        @Html.TextBoxFor(model => model.therapyList.FirstOrDefault().doctor ,new {@type="text"})
+    </div>    
+    <div class="form-inputs">
+        <p>Medicine</p>
+        @Html.TextBoxFor(model => model.therapyList.FirstOrDefault().medicine ,new {@type="text"})
+    </div>    
+    
+    <div class="form-inputs">
+        <p>Quantity</p>
+        @Html.TextBoxFor(model => model.therapyList.FirstOrDefault().quantity ,new { @type="number", @step="any" })
+    </div>
+   
+    <div class="form-inputs">
+        <p>Note</p>
+        @Html.TextBoxFor(model => model.therapyList.FirstOrDefault().note ,new {@type="text"})
+    </div>
+
+    <div class="form-inputs">
+        <p>Cá thể</p>
+        @{
+            List<SelectListItem> listItem= new List<SelectListItem>();
+
+            foreach(var itemAnimal in ViewBag.arr_animal){
+                var valAnimal = itemAnimal.id.ToString();
+                if(itemAnimal.status != 3){
+                    listItem.Add(new SelectListItem{
+                        Text = itemAnimal.name,
+                        Value = valAnimal
+                    });
+                }
+    
+            }
+        }
+        @Html.DropDownListFor(model => model.therapyList.FirstOrDefault().animal_id,listItem,"")
+    </div>
+
+    <div class="form-inputs">
+        <input type="submit" name="insert" value="Thêm">
+    </div>
+}

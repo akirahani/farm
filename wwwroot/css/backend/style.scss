@@ -104,6 +104,23 @@
                                     img {
                                         width: 100%;
                                     }
+                                    a.edit {
+                                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                                        border-radius: 5px;
+                                        padding: 5px;
+                                        text-decoration: none;
+                                        margin-right: 15px;
+                                        color: #fff;
+                                        background-color: aqua;
+                                    }
+                                    a.del {
+                                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                                        border-radius: 5px;
+                                        padding: 5px;
+                                        text-decoration: none;
+                                        color: #fff;
+                                        background-color: rgb(173, 25, 25);
+                                    }
                                 }
                             }
                         }

@@ -1,0 +1,53 @@
+@model LoginViewModel
+
+@using(Html.BeginForm("Update","Deal",FormMethod.Post)){
+    @Html.TextBox("id",(int)ViewBag.id, new {@type="hidden"})
+    
+    <div class="form-inputs">
+        <p>Customer</p>
+        @Html.TextBox("customer",(string)ViewBag.customer, new {@type="text"})
+    </div>
+    <div class="form-inputs">
+        <p>Total Price</p>
+        @Html.TextBox("total_price",(double)ViewBag.total_price ,new { @type="number", @step="any" })
+    </div>
+    <div class="form-inputs">
+        <p>cá thể</p>
+        @{
+            List<SelectListItem> listItemAnimal= new List<SelectListItem>();
+
+            foreach(var itemCate in ViewBag.arr_animal){
+                var valCate = itemCate.id.ToString();
+                if(itemCate.status == 3){
+                    listItemAnimal.Add(new SelectListItem{
+                        Text = itemCate.name,
+                        Value = valCate
+                    });
+                }
+            }
+            
+            string[] arr =  ViewBag.animal_id.Split(new char[] { '[', ']' }, StringSplitOptions.RemoveEmptyEntries);
+            var id_animal = int.Parse(arr[0]);
+            foreach(var its in listItemAnimal){
+                if(int.Parse(its.Value) == id_animal){
+                    its.Selected.CompareTo(true);
+                    its.Selected = true;
+                }
+            }
+        }
+        @Html.DropDownListFor(model => model.therapyList.FirstOrDefault().animal_id,listItemAnimal,"")
+
+    </div>
+
+    <div class="form-inputs">
+        <p>Date Out</p>
+        @ViewBag.date_out
+        <br>
+        <input asp-for="@Model.dealList.FirstOrDefault().date_out" />
+    </div>
+
+
+    <div class="form-inputs">
+        <input type="submit" name="update" value="Cập nhật">
+    </div>
+}

@@ -1,0 +1,100 @@
+@using mvcbasic.Data
+@{
+    ViewData["Title"] = "Cage Manage";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+
+}
+@model LoginViewModel
+<div class="all-user-list">
+    <div class="add-search-user">
+        <div class="btn-add-user">
+            <a href="../admin/cage/add" class="btn btn-success">Thêm</a>
+        </div>
+        <div class="form-search">
+            <input type="text" name="search-user" id="input-6" class="form-control mb-3 ">
+        </div>
+        <div class="btn-search">
+            <button class="search-user-button" type="button">Tìm</button>
+        </div>
+    </div>
+    <table class="table-user">
+        <thead>
+            <tr>
+                <th>
+                    Mã chuồng
+                </th>
+                <th>
+                    Tên chuồng
+                </th>
+                <th>
+                    Người quản lý
+                </th>
+                <th>
+                    Tác vụ
+                </th>
+            </tr>
+        </thead>
+        <tbody class="usertable">
+            @{
+                string[] arr_name = new string[100];
+                foreach(var itemUser in ViewBag.userList){
+                    arr_name[itemUser.id] = itemUser.name;
+                }
+            }
+            @{
+                foreach(var cage in ViewBag.cageList)
+                {
+                <tr>
+                    <td>
+                        @cage.id
+                    </td>
+                    <td>
+                        @cage.name
+                    </td>
+                    <td>
+                        @arr_name[cage.users_id]
+                    </td>
+                    <td>
+                        <a href="/admin/cage/edit?id=@cage.id" class="edit"> Sửa </a>
+                        <a href="/admin/cage/delete?id=@cage.id" class="del"> Xóa </a>
+                    
+                    </td>
+                </tr>
+            }}
+            </tbody>
+        </table> 
+    </div>
+  
+<script>
+    $('.search-user-button').click(function(){
+        let searchb = $('input[name="search-user"]').val();
+        console.log(searchb);
+        $.ajax({
+            type: "POST",
+            url: "/admin/cage/search",
+            data:{
+                _token: "{{ csrf_token() }}",
+                "search": searchb,
+            },
+            statusCode: {
+                200: function (data) {
+                    let rlts = '';
+                    $.each(data.arr_cage, function(index, at){
+                         rlts +='<tr>';
+                            rlts +=' <td> '+at.id +'</td>';
+                          rlts +='<td>'+at.name+'</td>';
+                         rlts +='<td>'+data.user[at.users_id]+'</td>';
+                         rlts +='<td>';
+                           rlts +='<a href="/admin/animal/edit?id='+at.id+'" class="edit"> Sửa </a>';
+                             rlts +='<a href="/admin/animal/delete?id='+at.id+'" class="del"> Xóa </a>';
+                            
+                            rlts +=' </td>';
+                        rlts +='</tr>';
+                    });
+                    $('tbody.usertable').html(rlts);
+                }
+            }
+        });
+    });
+</script>
+

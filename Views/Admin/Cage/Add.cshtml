@@ -1,0 +1,76 @@
+@model LoginViewModel
+
+@using(Html.BeginForm("Insert","Cage",FormMethod.Post)){
+    
+    <div class="form-inputs">
+        <p>Name</p>
+        @Html.TextBoxFor(model => model.cageList.FirstOrDefault().name, new {@type="text"})
+    </div>
+    <div class="form-inputs">
+        <p>Quantity</p>
+        @Html.TextBoxFor(model => model.cageList.FirstOrDefault().quantity ,new { @Value = "",@type="number" })
+    </div>
+    <div class="form-inputs">
+        <p>Note</p>
+        @Html.TextBoxFor(model => model.cageList.FirstOrDefault().note ,new { @Value = "",@type="text" })
+    </div> 
+    <div class="form-inputs">
+        <p>Người quản lý</p>
+        @{
+            List<SelectListItem> listItems= new List<SelectListItem>();
+                foreach(var itemUser in ViewBag.arr_user){
+                    var valUser = itemUser.id.ToString();
+                    listItems.Add(new SelectListItem{
+                        Text = itemUser.name,
+                        Value = valUser
+                    });
+                }           
+        }
+        @Html.DropDownListFor(model => model.cageList.FirstOrDefault().users_id,listItems,"")
+    </div> 
+
+    <div class="form-inputs">
+        <p>Loại cá thể</p>
+        @{
+            List<SelectListItem> listItemCate= new List<SelectListItem>();
+
+            foreach(var itemCate in ViewBag.arr_cate){
+                var valCate = itemCate.id.ToString();
+                listItemCate.Add(new SelectListItem{
+                    Text = itemCate.name,
+                    Value = valCate
+                });
+            }
+        }
+        @Html.DropDownListFor(model => model.cageList.FirstOrDefault().category_id,listItemCate,"")
+    </div>
+    <div class="form-inputs">
+        <input asp-for="@Model.cageList.FirstOrDefault().created_at" />
+    </div>
+    <div class="form-inputs">
+        <input asp-for="@Model.cageList.FirstOrDefault().close_at" />
+    </div>
+
+    <div class="form-inputs">
+        <p>Trạng thái</p>
+        @{
+            List<SelectListItem> listItemStatus= new List<SelectListItem>();
+                listItemStatus.Add(new SelectListItem{
+                    Text = "Đã đủ",
+                    Value = "1"
+                });
+                listItemStatus.Add(new SelectListItem{
+                    Text = "Chưa đủ",
+                    Value = "2"
+                });
+                listItemStatus.Add(new SelectListItem{
+                    Text = "Đóng cửa",
+                    Value = "3"
+                });
+        }
+        @Html.DropDownListFor(model => model.cageList.FirstOrDefault().status,listItemStatus,"")
+    </div> 
+    <div class="form-inputs">
+        <input type="submit" name="insert" value="Thêm">
+    </div>
+}

@@ -1,0 +1,57 @@
+@model LoginViewModel
+
+@using(Html.BeginForm("Update","Contact",FormMethod.Post)){
+     @Html.TextBox("id",(int)ViewBag.id, new {@type="hidden"})
+
+    <div class="form-inputs">
+        <p>Name</p>
+        @if(ViewBag.name != null){
+            @Html.TextBox("name",(String)ViewBag.name, new {@type="text"})
+        }
+        else{
+            @Html.TextBox("name","", new {@type="text"})
+        }
+
+    </div>
+
+    <div class="form-inputs">
+        <p>Email</p>
+        @if(ViewBag.email != null){
+            @Html.TextBox("email",(String)ViewBag.email, new {@type="text"})
+        }
+        else{
+            @Html.TextBox("email","", new {@type="text"})
+        }
+
+    </div>    
+    <div class="form-inputs">
+        <p>Phone</p>
+        @if(ViewBag.phone != null){
+            @Html.TextBox("phone",(String)ViewBag.phone, new {@type="text"})
+        }else{
+            @Html.TextBox("phone","", new {@type="text"})
+        }
+    </div>    
+    
+    <div class="form-inputs">
+        <p>Address</p>
+        @if(ViewBag.address != null){
+            @Html.TextBox("address",(String)ViewBag.address, new {@type="text"})
+        }else{
+            @Html.TextBox("address",null, new {@type="text"})
+        }
+    </div>
+   
+    <div class="form-inputs">
+        <p>Note</p>
+        @if(ViewBag.note != null){
+            @Html.TextBox("note",(String)ViewBag.note, new{@type="text"})
+        }else{
+            @Html.TextBox("note","", new{@type="text"})
+        }
+    </div>
+
+    <div class="form-inputs">
+        <input type="submit" name="update" value="Cập nhật">
+    </div>
+}

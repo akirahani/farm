@@ -1,0 +1,80 @@
+@model LoginViewModel
+
+@using(Html.BeginForm("Update","Therapy",FormMethod.Post)){
+     @Html.TextBox("id",(int)ViewBag.id, new {@type="hidden"})
+
+    <div class="form-inputs">
+        <p>Name</p>
+        @if(ViewBag.name != null){
+            @Html.TextBox("name",(String)ViewBag.name, new {@type="text"})
+        }
+        else{
+            @Html.TextBox("name","", new {@type="text"})
+        }
+
+    </div>
+
+    <div class="form-inputs">
+        <p>Doctor</p>
+        @if(ViewBag.doctor != null){
+            @Html.TextBox("doctor",(String)ViewBag.doctor, new {@type="text"})
+        }
+        else{
+            @Html.TextBox("doctor","", new {@type="text"})
+        }
+
+    </div>    
+    <div class="form-inputs">
+        <p>Medicine</p>
+        @if(ViewBag.medicine != null){
+            @Html.TextBox("medicine",(String)ViewBag.medicine, new {@type="text"})
+        }else{
+            @Html.TextBox("medicine","", new {@type="text"})
+        }
+    </div>    
+    
+    <div class="form-inputs">
+        <p>Quantity</p>
+        @if(ViewBag.quantity != null){
+            @Html.TextBox("quantity",(int)ViewBag.quantity, new { @type="number", @step="any" })
+        }else{
+            @Html.TextBox("quantity",null, new { @type="number", @step="any" })
+        }
+    </div>
+   
+    <div class="form-inputs">
+        <p>Note</p>
+        @if(ViewBag.note != null){
+            @Html.TextBox("note",(String)ViewBag.note, new{@type="text"})
+        }else{
+            @Html.TextBox("note","", new{@type="text"})
+        }
+    </div>
+
+    <div class="form-inputs">
+        <p>Cá thể</p>
+        @{
+            List<SelectListItem> listItem= new List<SelectListItem>();
+
+            foreach(var itemAnimal in ViewBag.arr_animal){
+                var valAnimal = itemAnimal.id.ToString();
+                listItem.Add(new SelectListItem{
+                    Text = itemAnimal.name,
+                    Value = valAnimal
+                });
+            }
+
+            foreach(var its in listItem){
+                if(int.Parse(its.Value) == ViewBag.animal_id){
+                    its.Selected.CompareTo(true);
+                    its.Selected = true;
+                }
+            }
+        }
+        @Html.DropDownListFor(model => model.therapyList.FirstOrDefault().animal_id,listItem,"")
+    </div>
+
+    <div class="form-inputs">
+        <input type="submit" name="update" value="Cập nhật">
+    </div>
+}

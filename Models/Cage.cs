@@ -6,7 +6,7 @@ public class Cage{
     public int id {get; set;}
     public string name {get; set;}
 
-    public int user_id {get; set;}
+    public int users_id {get; set;}
     public int category_id {get; set;}
 
     public int quantity {get; set;}

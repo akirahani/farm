@@ -1,0 +1,99 @@
+@using mvcbasic.Data
+@{
+    ViewData["Title"] = "Therapy Manage";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+
+}
+@model LoginViewModel
+<div class="all-user-list">
+    <div class="add-search-user">
+        <div class="btn-add-user">
+            <a href="../admin/therapy/add" class="btn btn-success">Thêm</a>
+        </div>
+        <div class="form-search">
+            <input type="text" name="search-user" id="input-6" class="form-control mb-3 ">
+        </div>
+        <div class="btn-search">
+            <button class="search-user-button" type="button">Tìm</button>
+        </div>
+    </div>
+    <table class="table-user">
+        <thead>
+            <tr>
+                <th>
+                    Mã lệnh khám
+                </th>
+                <th>
+                    cá thể
+                </th>
+                <th>
+                    Bác sĩ
+                </th>
+                <th>
+                    Tác vụ
+                </th>
+            </tr>
+        </thead>
+        <tbody class="usertable">
+            @{
+                string[] arr_animal= new string[100];
+                foreach(var itemAnimal in ViewBag.animalList){
+                    arr_animal[itemAnimal.id] = itemAnimal.name;
+                }
+            }
+            @{
+                foreach(var therapy in ViewBag.therapyList)
+                {
+                <tr>
+                    <td>
+                        @therapy.name
+                    </td>
+                    <td>
+                        @arr_animal[therapy.animal_id]
+                    </td>
+                    <td>
+                        @therapy.doctor
+                    </td>
+                    <td>
+                        <a href="/admin/therapy/edit?id=@therapy.id" class="edit"> Sửa </a>
+                        <a href="/admin/therapy/delete?id=@therapy.id" class="del"> Xóa </a>
+                    
+                    </td>
+                </tr>
+            }}
+            </tbody>
+        </table> 
+    </div>
+  
+<script>
+     $('.search-user-button').click(function(){
+        let searchb = $('input[name="search-user"]').val();
+        $.ajax({
+            type: "POST",
+            url: "/admin/therapy/search",
+            data:{
+                _token: "{{ csrf_token() }}",
+                "search": searchb,
+            },
+            statusCode: {
+                200: function (data) {
+                    let rlts = '';
+                    $.each(data.arr_therapy, function(index, at){
+                         rlts +='<tr>';
+                            rlts +=' <td> '+at.name +'</td>';
+                          rlts +='<td>'+data.animal[at.animal_id]+'</td>';
+                         rlts +='<td>'+at.doctor+'</td>';
+                         rlts +='<td>';
+                           rlts +='<a href="/admin/therapy/edit?id='+at.id+'" class="edit"> Sửa </a>';
+                             rlts +='<a href="/admin/therapy/delete?id='+at.id+'" class="del"> Xóa </a>';
+                            
+                            rlts +=' </td>';
+                        rlts +='</tr>';
+                    });
+                    $('tbody.usertable').html(rlts);
+                }
+            }
+        });
+    });
+</script>
+

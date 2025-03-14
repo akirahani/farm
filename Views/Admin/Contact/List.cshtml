@@ -1,0 +1,95 @@
+@using mvcbasic.Data
+@{
+    ViewData["Title"] = "Contact Manage";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+
+}
+@model LoginViewModel
+<div class="all-user-list">
+    <div class="add-search-user">
+        <div class="btn-add-user">
+            <a href="../admin/contact/add" class="btn btn-success">Thêm</a>
+        </div>
+        <div class="form-search">
+            <input type="text" name="search-contact" id="input-6" class="form-control mb-3 ">
+        </div>
+        <div class="btn-search">
+            <button class="search-contact-button" type="button">Tìm</button>
+        </div>
+    </div>
+    <table class="table-user">
+        <thead>
+            <tr>
+                <th>
+                    Tên
+                </th>
+                <th>
+                   Email
+                </th>
+                <th>
+                    Điện thoại
+                </th>
+                <th>
+                    Tác vụ
+                </th>
+            </tr>
+        </thead>
+        <tbody class="usertable">
+
+            @{
+                foreach(var contact in ViewBag.contactList)
+                {
+                <tr>
+                    <td>
+                        @contact.name
+                    </td>
+                    <td>
+                        @contact.email
+                    </td>
+                    <td>
+                        @contact.phone
+                    </td>
+                    <td>
+                        <a href="/admin/contact/edit?id=@contact.id" class="edit"> Sửa </a>
+                        <a href="/admin/contact/delete?id=@contact.id" class="del"> Xóa </a>
+                    </td>
+                </tr>
+            }}
+            </tbody>
+        </table> 
+    </div>
+  
+<script>
+     $('.search-contact-button').click(function(){
+        let searchb = $('input[name="search-contact"]').val();
+        console.log(searchb);
+        $.ajax({
+            type: "POST",
+            url: "/admin/contact/search",
+            data:{
+                _token: "{{ csrf_token() }}",
+                "search": searchb,
+            },
+            statusCode: {
+                200: function (data) {
+                    console.log(data);
+                    let rlts = '';
+                    $.each(data, function(index, at){
+                         rlts +='<tr>';
+                            rlts +=' <td> '+at.name +'</td>';
+                          rlts +='<td>'+at.email+'</td>';
+                         rlts +='<td>'+at.phone+'</td>';
+                         rlts +='<td>';
+                           rlts +='<a href="/admin/contact/edit?id='+at.id+'" class="edit"> Sửa </a>';
+                             rlts +='<a href="/admin/contact/delete?id='+at.id+'" class="del"> Xóa </a>';
+                            
+                            rlts +=' </td>';
+                        rlts +='</tr>';
+                    });
+                    $('tbody.usertable').html(rlts);
+                }
+            }
+        });
+    });
+</script>
+

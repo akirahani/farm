@@ -1,0 +1,41 @@
+@model LoginViewModel
+
+@using(Html.BeginForm("Insert","Deal",FormMethod.Post)){
+    
+    <div class="form-inputs">
+        <p>Customer</p>
+        @Html.TextBoxFor(model => model.dealList.FirstOrDefault().customer, new {@type="text"})
+    </div>
+    <div class="form-inputs">
+        <p>Total Price</p>
+        @Html.TextBoxFor(model => model.dealList.FirstOrDefault().total_price ,new { @type="number", @step="any" })
+    </div>
+    <div class="form-inputs">
+        <p>Loại cá thể</p>
+        @{
+            List<SelectListItem> listItemCate= new List<SelectListItem>();
+
+            foreach(var itemCate in ViewBag.arr_animal){
+                var valCate = itemCate.id.ToString();
+                if(itemCate.status != 3){
+                    listItemCate.Add(new SelectListItem{
+                        Text = itemCate.name,
+                        Value = valCate
+                    });
+                }
+            
+            }
+        }
+        @Html.DropDownListFor(model => model.dealList.FirstOrDefault().animal_id,listItemCate,"")
+    </div>
+
+    <div class="form-inputs">
+        <p>Date Out</p>
+        <input asp-for="@Model.dealList.FirstOrDefault().date_out" />
+    </div>
+
+
+    <div class="form-inputs">
+        <input type="submit" name="insert" value="Thêm">
+    </div>
+}

@@ -1,0 +1,105 @@
+@using Newtonsoft.Json
+@using Newtonsoft.Json.Linq
+@using mvcbasic.Data
+@{
+    ViewData["Title"] = "Deal Manage";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+
+}
+@model LoginViewModel
+<div class="all-user-list">
+    <div class="add-search-user">
+        <div class="btn-add-user">
+            <a href="../admin/deal/add" class="btn btn-success">Thêm</a>
+        </div>
+        <div class="form-search">
+            <input type="text" name="search-user" id="input-6" class="form-control mb-3 ">
+        </div>
+        <div class="btn-search">
+            <button class="search-user-button" type="button">Tìm</button>
+        </div>
+    </div>
+    <table class="table-user">
+        <thead>
+            <tr>
+                <th>
+                    Khách
+                </th>
+                <th>
+                    Tổng tiền
+                </th>
+                <th>
+                    Cá thể
+                </th>
+                <th>
+                    Tác vụ
+                </th>
+            </tr>
+        </thead>
+        <tbody class="usertable">
+            @{
+                string[] arr_animal= new string[100];
+                foreach(var itemAnimal in ViewBag.animalList){
+                    arr_animal[itemAnimal.id] = itemAnimal.name;
+
+                }
+            }
+            @{
+                foreach(var deal in ViewBag.dealList)
+                {            
+                    string[] arr =  deal.animal_id.Split(new char[] { '[', ']' }, StringSplitOptions.RemoveEmptyEntries);
+                    var id_animal = int.Parse(arr[0]);
+                    <tr>
+                        <td>
+                            @deal.customer
+                        </td>
+                        <td>
+                            @deal.total_price
+                        </td>
+                        <td>
+
+                            @arr_animal[id_animal]
+                        </td>
+                        <td>
+                            <a href="/admin/deal/edit?id=@deal.id" class="edit"> Sửa </a>
+                            <a href="/admin/deal/delete?id=@deal.id" class="del"> Xóa </a>
+                        
+                        </td>
+                    </tr>
+                }}
+            </tbody>
+        </table> 
+    </div>
+  
+<script>
+     $('.search-user-button').click(function(){
+        let searchb = $('input[name="search-user"]').val();
+        $.ajax({
+            type: "POST",
+            url: "/admin/deal/search",
+            data:{
+                _token: "{{ csrf_token() }}",
+                "search": searchb,
+            },
+            statusCode: {
+                200: function (data) {
+                    let rlts = '';
+                    $.each(data.arr_deal, function(index, at){
+                         rlts +='<tr>';
+                            rlts +=' <td> '+at.customer +'</td>';
+                          rlts +='<td>'+at.total_price+'</td>';
+                         rlts +='<td>'+data.animal[at.animal_id]+'</td>';
+                         rlts +='<td>';
+                           rlts +='<a href="/admin/animal/edit?id='+at.id+'" class="edit"> Sửa </a>';
+                             rlts +='<a href="/admin/animal/delete?id='+at.id+'" class="del"> Xóa </a>';
+                            
+                            rlts +=' </td>';
+                        rlts +='</tr>';
+                    });
+                    $('tbody.usertable').html(rlts);
+                }
+            }
+        });
+    });
+</script>
+
