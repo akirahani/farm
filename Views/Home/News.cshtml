@@ -4,5 +4,22 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome @ViewData["Title"]</h1>
+    <div class="title-contact">
+        <p>Trang chủ /</p>
+        <b>Tin tức</b>
+    </div>
+    <div class="blog-all">
+        @{
+            foreach(var newItem in ViewBag.listNewGet){
+                <div class="box-blog">
+                    <a href="/blog?id=@newItem.id">
+                        <img src="~/uploads/@newItem.image" alt="Ảnh tin tức"/>
+                        <h1>@newItem.title</h1>
+                        <span>@newItem.created_at.ToString("yyyy-MM-dd")</span>
+                        <p>@newItem.subtit</p>
+                    </a>
+                </div>
+            }
+        }
+    </div>
 </div>

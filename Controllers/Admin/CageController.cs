@@ -67,17 +67,50 @@ public class CageController : Controller
         ViewBag.nameSession = sessionName;
         if(ViewBag.nameSession != ""){
             if(cage != null){
-                if(cage.name != null && cage.users_id != null && cage.note != null && cage.category_id != null && cage.quantity != null && cage.status != null ){
-                    _context.Add(cage);
-                    return RedirectToAction("List","Cage",cageList);
-                }else{
-                    cage.users_id = 1;
-                    cage.category_id = 1;
-                    cage.quantity = 0;
-                    cage.note = "";
-                    cage.status = 2;
-                    _context.Add(cage);
+                if(cage.name != null){
+                    cage.name= cage.name;
+                    }else{
+                    cage.name= "";
                 }
+                
+                if(cage.users_id != null)
+                {
+                    cage.users_id = cage.users_id;
+                }else{
+                    cage.users_id = 0;
+                }
+
+                if( cage.note!= null){
+                    cage.note = cage.note;
+                }else{
+                    cage.note = "";
+                }
+
+                if( cage.category_id != null){
+                    cage.category_id = cage.category_id;
+                }else{
+                    cage.category_id = 0;
+                }
+
+                if( cage.quantity != null){
+                    cage.quantity = cage.quantity;
+                }else{
+                    cage.quantity = 0; 
+                }
+
+                if( cage.status != null){
+                    cage.status = cage.status;
+                }else{
+                    cage.status = 1; 
+                }
+                
+                if( cage.created_at != null){
+                    cage.created_at = cage.created_at;
+                }else{
+                    cage.created_at = DateTime.Now; 
+                }
+           
+                _context.Add(cage);
                 _context.SaveChanges();
                 return RedirectToAction("List","Cage",cageList);
             }else{
@@ -159,6 +192,43 @@ public class CageController : Controller
         if(ViewBag.nameSession != ""){
             if(cage != null){
                     var data = _context.Cage.Find(cage.id);
+
+                    if(cage.name != null){
+                        cage.name= cage.name;
+                    }else{
+                        cage.name= "";
+                    }
+                    
+                    if(cage.users_id != null)
+                    {
+                        cage.users_id = cage.users_id;
+                    }else{
+                        cage.users_id = 0;
+                    }
+
+                    if( cage.note!= null){
+                        cage.note = cage.note;
+                    }else{
+                        cage.note = "";
+                    }
+
+                    if( cage.category_id != null){
+                        cage.category_id = cage.category_id;
+                    }else{
+                        cage.category_id = 0;
+                    }
+
+                    if( cage.quantity != null){
+                        cage.quantity = cage.quantity;
+                    }else{
+                        cage.quantity = 0; 
+                    }
+
+                    if( cage.status != null){
+                        cage.status = cage.status;
+                    }else{
+                        cage.status = 1; 
+                    }
                     data.name = cage.name;
                     data.users_id = cage.users_id;
                     data.category_id = cage.category_id;

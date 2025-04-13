@@ -69,15 +69,39 @@ public class AnimalController : Controller
         ViewBag.nameSession = sessionName;
         if(ViewBag.nameSession != ""){
             if(animal != null){
-                if(animal.name != null && animal.cage_id != null && animal.height != null && animal.category_id != null && animal.date_in != null && animal.date_out != null && animal.status != null ){
-                    animal.created_at = DateTime.Now;
+                if(animal.name != null){
+                    animal.name = animal.name;
                 }else{
-                    animal.cage_id = 1;
-                    animal.category_id = 1;
-                    animal.height = 0;
                     animal.name = "";
-                    animal.status = 0;
                 }
+                
+                if(animal.cage_id != null)
+                {
+                    animal.cage_id = animal.cage_id;
+                }else{
+                   animal.cage_id = 1;
+                }
+
+                if( animal.height  != null){
+                    animal.height  = animal.height ;
+                }else{
+                    animal.height  = 0;
+                }
+
+                if( animal.category_id  != null){
+                    animal.category_id  = animal.category_id ;
+                }else{
+                    animal.category_id  = 0;
+                }
+
+                if( animal.status  != null){
+                    animal.status  = animal.status ;
+                }else{
+                    animal.status  = 1;
+                }
+
+                animal.created_at = DateTime.Now;
+
                 _context.Add(animal);
                 _context.SaveChanges();
                 return RedirectToAction("List","animal",animalList);
@@ -146,6 +170,37 @@ public class AnimalController : Controller
         if(ViewBag.nameSession != ""){
             if(animal != null){
                     var data = _context.Animal.Find(animal.id);
+                    if(animal.name != null){
+                        animal.name = animal.name;
+                    }else{
+                        animal.name = "";
+                    }
+                    
+                    if(animal.cage_id != null)
+                    {
+                        animal.cage_id = animal.cage_id;
+                    }else{
+                        animal.cage_id = 1;
+                    }
+
+                    if( animal.height  != null){
+                        animal.height  = animal.height ;
+                    }else{
+                        animal.height  = 0;
+                    }
+
+                    if( animal.category_id  != null){
+                        animal.category_id  = animal.category_id ;
+                    }else{
+                        animal.category_id  = 0;
+                    }
+
+                    if( animal.status  != null){
+                        animal.status  = animal.status ;
+                    }else{
+                        animal.status  = 1;
+                    }
+
                     data.name = animal.name;
                     data.cage_id = animal.cage_id;
                     data.category_id = animal.category_id;

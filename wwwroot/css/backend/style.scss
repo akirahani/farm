@@ -6,14 +6,19 @@
             margin: auto;
             display: flex;
             .nav-menu {
-                width: 25%;
+                background: rgba(14, 14, 14, 0.29);
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: -100%;
+                z-index: 9;
                 ul {
                     background-color: #009879;
-                    left: 10%;
-                    top: 45px;
                     width: 200px;
                     height: 100%;
                     position: absolute;
+                    margin: 0;
                     padding: 30px 0 0 20px;
                     list-style: none;
                     li {
@@ -28,10 +33,22 @@
                         }
                     }
                 }
+                .close-admenu {
+                    right: 0;
+                    background: rgba(14, 14, 14, 0.29);
+                    position: absolute;
+                    width: 50px;
+                    height: 100%;
+                }
             }
             .content-admin {
                 margin-top: 20px;
                 width: 75%;
+                .dashboard {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fill, calc(50% - 10px));
+                    justify-content: space-around;
+                }
                 .all-user-list {
                     .add-search-user {
                         display: flex;
@@ -89,7 +106,6 @@
                         border-collapse: collapse;
                         font-size: 0.9em;
                         font-family: "Montserrat";
-                        min-width: 400px;
                         box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
                         width: 100%;
                         margin: 15px 0;
@@ -195,7 +211,9 @@
     .container-admin {
         .all-admin-manage {
             width: 480px;
-            .nav-menu {}
+            .nav-menu {
+                width: 480px;
+            }
             .content-admin {}
         }
     }
@@ -211,7 +229,14 @@
     .container-admin {
         .all-admin-manage {
             width: 1200px;
-            .nav-menu {}
+            .nav-menu {
+                width: 25%;
+                position: unset;
+                margin-top: 0;
+                ul {
+                    margin: 0;
+                }
+            }
             .content-admin {}
         }
     }

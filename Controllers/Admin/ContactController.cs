@@ -60,7 +60,6 @@ public class ContactController : Controller
                     contact.name = "";
                 }
                 
-                
                 if(contact.email != null)
                 {
                     contact.email = ""+contact.email;
@@ -79,8 +78,7 @@ public class ContactController : Controller
                 }else{
                     contact.address = "";
                 }
-                
-                
+
                 if( contact.note != null){
                     contact.note = contact.note;
                 }else{

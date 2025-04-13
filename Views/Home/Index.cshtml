@@ -10,14 +10,16 @@
 </div>
 
  <div class="blog-all">
-    @for(var i = 0; i< 4;i++){
-        <div class="box-blog">
-            <a href="">
-                <img src="~/image/banner1.png" alt="Ảnh tin tức"/>
-                <h1>Abc</h1>
-                <span>27/11/2025</span>
-                <p>abcd'</p>
-            </a>
-        </div>
+    @{
+        foreach(var newItem in ViewBag.listNewGet){
+            <div class="box-blog">
+                <a href="blog?id=@newItem.id">
+                    <img src="~/uploads/@newItem.image" alt="Ảnh tin tức"/>
+                    <h1>@newItem.title</h1>
+                    <span>@newItem.created_at.ToString("yyyy-MM-dd")</span>
+                    <p>@newItem.subtit</p>
+                </a>
+            </div>
+        }
     }
 </div>
