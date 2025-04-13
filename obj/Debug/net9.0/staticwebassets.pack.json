@@ -33,6 +33,18 @@
       "PackagePath": "staticwebassets\\css\\backend\\style.scss"
     },
     {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\css\\detail\\blog.css",
+      "PackagePath": "staticwebassets\\css\\detail\\blog.css"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\css\\detail\\blog.css.map",
+      "PackagePath": "staticwebassets\\css\\detail\\blog.css.map"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\css\\detail\\blog.scss",
+      "PackagePath": "staticwebassets\\css\\detail\\blog.scss"
+    },
+    {
       "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -55,6 +67,14 @@
     {
       "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\image\\banner1.png",
       "PackagePath": "staticwebassets\\image\\banner1.png"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\image\\broiler-breeder-farm.png",
+      "PackagePath": "staticwebassets\\image\\broiler-breeder-farm.png"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\js\\jquery-2.1.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-2.1.1.min.js"
     },
     {
       "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\js\\owl_carousel.js",
@@ -245,6 +265,218 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\css\\all.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\css\\all.css"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\css\\all.min.css"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\css\\brands.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\css\\brands.css"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\css\\brands.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\css\\brands.min.css"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\css\\duotone.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\css\\duotone.css"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\css\\duotone.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\css\\duotone.min.css"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\css\\fontawesome.css"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\css\\index.html",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\css\\index.html"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\css\\light.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\css\\light.css"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\css\\light.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\css\\light.min.css"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\css\\regular.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\css\\regular.css"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\css\\regular.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\css\\regular.min.css"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\css\\solid.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\css\\solid.css"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\css\\solid.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\css\\solid.min.css"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\css\\svg-with-js.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\css\\svg-with-js.css"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\css\\svg-with-js.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\css\\svg-with-js.min.css"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\css\\thin.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\css\\thin.css"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\css\\thin.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\css\\thin.min.css"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\css\\v4-shims.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\css\\v4-shims.css"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\css\\v4-shims.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\css\\v4-shims.min.css"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\index.html",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\index.html"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\webfonts\\fa-duotone-900.eot",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\webfonts\\fa-duotone-900.eot"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\webfonts\\fa-duotone-900.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\webfonts\\fa-duotone-900.svg"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\webfonts\\fa-duotone-900.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\webfonts\\fa-duotone-900.ttf"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\webfonts\\fa-duotone-900.woff",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\webfonts\\fa-duotone-900.woff"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\webfonts\\fa-duotone-900.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\webfonts\\fa-duotone-900.woff2"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\webfonts\\fa-light-300.eot",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\webfonts\\fa-light-300.eot"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\webfonts\\fa-light-300.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\webfonts\\fa-light-300.svg"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\webfonts\\fa-light-300.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\webfonts\\fa-light-300.ttf"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\webfonts\\fa-light-300.woff",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\webfonts\\fa-light-300.woff"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\webfonts\\fa-light-300.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\webfonts\\fa-light-300.woff2"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\webfonts\\fa-thin-100.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\webfonts\\fa-thin-100.ttf"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\webfonts\\fa-thin-100.woff",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\webfonts\\fa-thin-100.woff"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\webfonts\\fa-thin-100.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\webfonts\\fa-thin-100.woff2"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\font-awesome-pro-6.0\\webfonts\\index.html",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-pro-6.0\\webfonts\\index.html"
+    },
+    {
       "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
@@ -311,6 +543,18 @@
     {
       "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\uploads\\Screenshot 2024-05-25 225824.png",
       "PackagePath": "staticwebassets\\uploads\\Screenshot 2024-05-25 225824.png"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\uploads\\Screenshot 2025-02-12 001429.png",
+      "PackagePath": "staticwebassets\\uploads\\Screenshot 2025-02-12 001429.png"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\uploads\\Screenshot 2025-02-12 001440.png",
+      "PackagePath": "staticwebassets\\uploads\\Screenshot 2025-02-12 001440.png"
+    },
+    {
+      "Id": "D:\\ITSOFTWARE\\WinformApp\\ASPNetWeb\\Farm\\wwwroot\\uploads\\Screenshot 2025-03-10 001910.png",
+      "PackagePath": "staticwebassets\\uploads\\Screenshot 2025-03-10 001910.png"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Farm.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

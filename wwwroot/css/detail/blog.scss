@@ -1,0 +1,121 @@
+@import '../font';
+@media all and(min-width: 0) {
+    .blog-detail-all {
+        .blog-detail-title {
+            display: flex;
+            align-items: center;
+            p,
+            a {
+                color: #607089;
+                font-family: 'Montserrat';
+                font-size: 16px;
+                font-weight: 400;
+            }
+            a {
+                text-decoration: none;
+            }
+            span {
+                color: #607089;
+                font-family: 'Montserrat';
+                font-size: 16px;
+                font-weight: 600;
+            }
+        }
+        .blog-main {
+            width: calc(100% - 10px);
+            margin: auto;
+            .blog-content {
+                border-radius: 12px;
+                padding-left: 12px;
+                background-color: #fff;
+                h1 {
+                    color: #0FCBFF;
+                    font-family: 'Montserrat';
+                    font-size: 24px;
+                    font-weight: 600;
+                }
+                span {
+                    color: #000;
+                    font-family: 'Montserrat';
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+                p {
+                    color: #000;
+                    font-family: 'Montserrat';
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+                article {
+                    word-break: break-word;
+                    // img {
+                    //     width: 100%!important;
+                    // }
+                }
+            }
+            .other-blog {
+                border-radius: 12px;
+                padding-left: 16px;
+                padding-top: 11px;
+                padding-bottom: 15px;
+                background-color: #fff;
+                h1 {
+                    margin: 16px 0 10px 0;
+                    color: #607089;
+                    font-family: 'Montserrat';
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+                .line-blog {
+                    width: 156px;
+                    height: 2px;
+                    background-color: #0FCBFF;
+                }
+                ul {
+                    list-style: none;
+                    padding: 0;
+                    li {
+                        margin-top: 10px;
+                        a {
+                            text-decoration: none;
+                            color: #232323;
+                            font-family: 'Montserrat';
+                            font-size: 16px;
+                            font-weight: 600;
+                            &:hover {
+                                color: #0FCBFF;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and(min-width: 521px) {
+    .blog-detail-all {
+        .blog-detail-title {
+            margin-top: 70px;
+        }
+    }
+}
+
+@media all and(min-width: 1201px) {
+    .blog-detail-all {
+        width: 1110px;
+        margin: 0 auto;
+        .blog-main {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            .blog-content {
+                width: 76%;
+                margin-right: 30px;
+            }
+            .other-blog {
+                width: 22%;
+            }
+        }
+    }
+}

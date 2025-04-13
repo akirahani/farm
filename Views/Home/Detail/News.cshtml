@@ -1,0 +1,26 @@
+<section class="blog-detail-all"> 
+	<div class="blog-detail-title">
+		<a href="">Trang chủ / </a> 
+		<p> Kiến thức/ </p>
+	 	<span> @ViewBag.title</span>
+	</div>
+	<div class="blog-main">
+		<div class="blog-content">
+			<h1>@ViewBag.title</h1>
+
+			<span>@ViewBag.created_at</span>
+			<article>@ViewBag.content
+		</div>
+		<div class="other-blog">
+			<h1>Bài viết gần đây</h1>
+			<div class="line-blog"></div>
+			@{
+                @foreach(var newsOther in ViewBag.listNewOther ){
+				<ul>
+					<li><a href="blog?id=@newsOther.id">@newsOther.title</a></li>';
+				</ul>
+				}
+            }	
+		</div>
+	</div>
+</section>

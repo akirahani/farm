@@ -14,10 +14,24 @@ $('.navbar-toggler').click(function() {
 });
 
 
+$('.navbar-toggler-admin').click(function() {
+    if (window.innerWidth >= 0 && window.innerWidth < 520) {
+        $('.nav-menu').css('left', '0');
+    }
+    if (window.innerWidth >= 520 && window.innerWidth < 1201) {
+        let a = ((window.innerWidth - 480) / 2);
+        $('.nav-menu').css('left', a + 'px');
+
+    }
+});
+
+$('.close-admenu').click(function() {
+    $('.nav-menu').hide();
+});
+
 $('.close-nav').click(function() {
     $('.nav-mobile').css('left', '-100%');
 });
-
 // banner
 $(".banner").owlCarousel({
     items: 1,
